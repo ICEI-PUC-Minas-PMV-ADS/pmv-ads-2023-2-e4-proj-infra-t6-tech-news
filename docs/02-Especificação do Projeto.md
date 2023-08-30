@@ -1,108 +1,384 @@
 # Especificações do Projeto
 
-<span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
-
 Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
 
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
-
 ## Personas
+Seguem demonstradas por meio dos quadros apresentados o levantamento feito das personas e suas características durante o processo de entendimento do problema:
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+<table>
+  <tr>
+   <td width="1000" colspan="5" align="center">Mark Khalil, 36 anos.</td>
+  </tr>
+  <tr>
+   <td width="200" align="center" height="200" rowspan="3"><img alt="Persona 01" src="https://github.com/RaulShinaede/proj-ingresso-e4-temp/assets/102563767/338cfdd8-6984-484d-8c96-1e9fd4a032fd"></td>
+   <td width="150" align="center">Ocupação</td>
+   <td colspan="3">Designer</td>
+   <tr>
+    <td width="150" align="center">Aplicativos</td>
+    <td width="210" align="center">Motivações</td>
+    <td width="210" align="center">Frustrações</td>
+    <td width="240" align="center">Hobbies, História</td>
+   </tr>
+  </tr>
+  <tr>
+   <td>
+    ●	Figma<br>
+    ●	Whatsapp<br>
+    ●	PhotoShop<br>
+    ●	Whatsapp<br>
+    ●	Ilustrator<br> 
+   </td>
+   <td>
+    ●	Ter alguma atividade em comum com sua esposa.<br>
+     <br>
+    ●	Se divertir.<br>
+   </td>
+   <td>
+    ●	Estar sempre muito ligado ao trabalho.<br>
+     <br>
+    ●	Não ter tempo de qualiodade com sua esposa.<br>
+   </td>
+   <td>
+    ●	Não possui Hobbies<br>
+   </td>
+  </tr>
+ </table>
+ <table>
+  <tr>
+   <td width="1000" colspan="5" align="center">Paulo Ribeiro, 34 anos.</td>
+  </tr>
+  <tr>
+   <td width="200" align="center" height="200" rowspan="3"><img alt="Persona 02" src="https://github.com/RaulShinaede/proj-ingresso-e4-temp/assets/102563767/71ca936c-9a89-426a-9e45-b1564ed39b13"></td>
+   <td width="150" align="center">Ocupação</td>
+   <td colspan="3">Empresário</td>
+   <tr>
+    <td width="150" align="center">Aplicativos</td>
+    <td width="210" align="center">Motivações</td>
+    <td width="210" align="center">Frustrações</td>
+    <td width="240" align="center">Hobbies, História</td>
+   </tr>
+  </tr>
+  <tr>
+   <td>
+    ●	Whatsapp<br>
+    ●	Outlook<br>
+    ●	Receita<br>
+    ●	Banco Digital<br> 
+    ●	Calculadora<br>
+    ●	TikTok<br> 
+   </td>
+   <td>
+    ●	Se divertir com sua filha.<br>
+     <br>
+    ●	Se desestressar da rotina de trabalho .<br>
+   </td>
+   <td>
+    ●	Falta de tempo com a familia.<br>
+     <br>
+    ●	Viver muito preso ao trabalho e a rotina.<br>
+   </td>
+   <td>
+    ●	Ir ao cinema<br>
+   </td>
+  </tr>
+ </table>
+ <table>
+  <tr>
+   <td width="1000" colspan="5" align="center">Maria Soares, 40 anos.</td>
+  </tr>
+  <tr>
+   <td width="200" align="center" height="200" rowspan="3"><img alt="Persona 03" src="https://github.com/RaulShinaede/proj-ingresso-e4-temp/assets/102563767/a6c72185-05e2-462a-9d04-2c6bbc244100"></td>
+   <td width="150" align="center">Ocupação</td>
+   <td colspan="3">Cinéfila</td>
+   <tr>
+    <td width="150" align="center">Aplicativos</td>
+    <td width="210" align="center">Motivações</td>
+    <td width="210" align="center">Frustrações</td>
+    <td width="240" align="center">Hobbies, História</td>
+   </tr>
+  </tr>
+  <tr>
+   <td>
+    ●	Facebook<br>
+    ●	Whatsapp<br>
+    ●	Amazon Prime<br>
+    ● Netflix<br>
+    ●	Youtube<br> 
+    ●	Hbo<br>
+   </td>
+   <td>
+    ●	Assistir todos os filmes que gosta.<br>
+     <br>
+    ●	Encontrar promoções e facilidade para ver seus filmes favoritos.<br>
+   </td>
+   <td>
+    ●	Sempre ter que lidar com as dificuldades de comprar ingressos online.<br>
+     <br>
+    ●	Sentir falta de otimização dos aplicativos de ingresso disponíveis.<br>
+   </td>
+   <td>
+    ●	Análisar os filmes assistidos e postar em seu canal no youtube.<br>
+   </td>
+  </tr>
+ </table>
+ <table>
+  <tr>
+   <td width="1000" colspan="5" align="center">Isabela Campos, 29 anos.</td>
+  </tr>
+  <tr>
+   <td width="200" align="center" height="200" rowspan="3"><img alt="Persona 04" src="https://github.com/RaulShinaede/proj-ingresso-e4-temp/assets/102563767/9cc5924b-117a-402c-bfee-a2f50a515846"></td>
+   <td width="150" align="center">Ocupação</td>
+   <td colspan="3">Estilista</td>
+   <tr>
+    <td width="150" align="center">Aplicativos</td>
+    <td width="210" align="center">Motivações</td>
+    <td width="210" align="center">Frustrações</td>
+    <td width="240" align="center">Hobbies, História</td>
+   </tr>
+  </tr>
+  <tr>
+   <td>
+    ●	Photoshop<br>
+    ●	Coreo Draw<br>
+    ●	Whatsapp<br>
+    ●	Instagram<br> 
+   </td>
+   <td>
+    ●	Se inspirar para criar suas roupas por meio do cinema.<br>
+     <br>
+    ●	Crescer seu negócio e aumentar sua produção de roupas.<br>
+   </td>
+   <td>
+    ●	Muitas vezes precisar comprar seus ingressos na bilheteria física do cinema.<br>
+     <br>
+    ●	Perder sessões por lentidões de sitemas online e de totem dos cinemas.<br>
+   </td>
+   <td>
+    ● Viajar<br>
+   </td>
+  </tr>
+ </table>
+ <table>
+  <tr>
+   <td width="1000" colspan="5" align="center">Simone Silva, 45 anos.</td>
+  </tr>
+  <tr>
+   <td width="200" align="center" height="200" rowspan="3"><img alt="Persona 05" src="https://github.com/RaulShinaede/proj-ingresso-e4-temp/assets/102563767/bff6fe67-8bcd-42f4-9329-907c574e4056"></td>
+   <td width="150" align="center">Ocupação</td>
+   <td colspan="3">Dona de Casa</td>
+   <tr>
+    <td width="150" align="center">Aplicativos</td>
+    <td width="210" align="center">Motivações</td>
+    <td width="210" align="center">Frustrações</td>
+    <td width="240" align="center">Hobbies, História</td>
+   </tr>
+  </tr>
+  <tr>
+   <td>
+    ●	Youtube<br>
+    ●	Netflix<br>
+    ●	TikTok<br>
+    ●	Google Agenda<br>
+   </td>
+   <td>
+    ●	Se divertir com a família.<br>
+     <br>
+    ● Ensinar aos filhos a cultura do cinema.<br>
+   </td>
+   <td>
+    ●	Perder os horários das sessões por não saber onde assistir os filmes.<br>
+     <br>
+    ●	Não conseguir encontrar filmes dublados para seus filhos.<br>
+   </td>
+   <td>
+    ●	Desfrutar da companhia dos filhos<br>
+   </td>
+  </tr>
+ </table>
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
-
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
 
 ## Histórias de Usuários
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
+A fim de buscar mais informações sobre os motivos e causas de uso dessas pessoas a plataforma a ser desenvolvida, foram realizadas perguntas por meio de entrevistas, tendo resultados demonstrados no quadro apresentado:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
-
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
+<table>
+  <tr>
+    <td width="200" align="center"><strong>EU COMO... <code>PERSONA</code></strong></td>
+    <td width="400" align="center"><strong>QUERO/PRECISO ... <code>FUNCIONALIDADE</code></strong></td>
+    <td width="300" align="center"><strong>PARA ... <code>MOTIVO/VALOR</code></strong></td>
+  </tr>
+      <tr>
+        <td>Mark Khalil</td>
+        <td>Passar mais tempo de qualidade com minha esposa.</td>
+        <td>Fortificar nossa relação.</td>
+      </tr>
+      <tr>
+        <td>Paulo Ribeiro</td>
+        <td>Passar mais tempo de qualidade com minha filha.</td>
+        <td>aproveitar mais a vida e me desligar mais do trabalho.</td>
+      </tr>
+       <tr>
+        <td>Maria Soares</td>
+        <td>Acompanhar todos os lancamentos do cinema.</td>
+        <td>Aumentar as vizualizações do meu canal no youtube.</td>
+      </tr>
+       <tr>
+        <td>Isabela Campos</td>
+        <td>Buscar inspirações para melhorar minhas criações.</td>
+        <td>Crescer minha marca e minha carteira de clientes.</td>
+      </tr>
+       <tr>
+        <td>Simone Silva</td>
+        <td>Passar tempo com meus filhos.</td>
+        <td>Cria-los com conteúdo e base de cultura.</td>
+      </tr>
+</table>
 
 ## Modelagem do Processo de Negócio 
 
 ### Análise da Situação Atual
 
-Apresente aqui os problemas existentes que viabilizam sua proposta. Apresente o modelo do sistema como ele funciona hoje. Caso sua proposta seja inovadora e não existam processos claramente definidos, apresente como as tarefas que o seu sistema pretende implementar são executadas atualmente, mesmo que não se utilize tecnologia computacional. 
+// TODO
 
 ### Descrição Geral da Proposta
 
-Apresente aqui uma descrição da sua proposta abordando seus limites e suas ligações com as estratégias e objetivos do negócio. Apresente aqui as oportunidades de melhorias.
+//TODO
 
-### Processo 1 – NOME DO PROCESSO
+### Processo 1 – As Is (Modelo atual - sem implementação da solução)
 
-Apresente aqui o nome e as oportunidades de melhorias para o processo 1. Em seguida, apresente o modelo do processo 1, descrito no padrão BPMN. 
+// TODO
 
-![Processo 1](img/02-bpmn-proc1.png)
+### Processo 2 – To Be (Modelo ideal - pós implementação da solução)
 
-### Processo 2 – NOME DO PROCESSO
+// TODO
 
-Apresente aqui o nome e as oportunidades de melhorias para o processo 2. Em seguida, apresente o modelo do processo 2, descrito no padrão BPMN.
+## Relação Potencialidades e Oportunidades de Melhoria para o Processo de Negócio
 
-![Processo 2](img/02-bpmn-proc2.png)
+// TODO
 
 ## Indicadores de Desempenho
 
-Apresente aqui os principais indicadores de desempenho e algumas metas para o processo. Atenção: as informações necessárias para gerar os indicadores devem estar contempladas no diagrama de classe. Colocar no mínimo 5 indicadores. 
-
-Usar o seguinte modelo: 
-
-![Indicadores de Desempenho](img/02-indic-desemp.png)
-Obs.: todas as informações para gerar os indicadores devem estar no diagrama de classe a ser apresentado a posteriori. 
+// TODO
 
 ## Requisitos
 
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto. Para determinar a prioridade de requisitos, aplicar uma técnica de priorização de requisitos e detalhar como a técnica foi aplicada.
+As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
+Para priorizar os requisitos, foi utilizado  a técnica de Escala de três Níveis, para essa técnica foi definido dois aspectos principais: importância e urgência.
+Assim, forma-se um quadrante, que é usado para obter o nível de prioridade do requisito, como mostrado na figura a seguir:
+
+// [IMAGEM]
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+<table>
+  <tr>
+    <td align="center" width="80">ID</td>
+    <td align="center" width="800">Descrição do Requisito</td>
+    <td align="center" width="100">Prioridade</td>
+  </tr>
+  <tr>
+  <td align="center">RF-001</td>
+    <td align="left">O Sistema deve permitir que o usuário crie uma conta.</td>
+    <td align="center">ALTA</td>
+  </tr>
+    <tr>
+    <td align="center">RF-002</td>
+    <td align="left">O Sistema deve permitir que o usuário faça login em uma conta já cadastrada.</td>
+    <td align="center">ALTA</td>
+  </tr>
+    <tr>
+    <td align="center">RF-003</td>
+    <td align="left">O Sistema deve permitir que o usuário recupere a senha de sua conta.</td>
+    <td align="center">ALTA</td>
+  </tr>
+    <tr>
+    <td align="center">RF-004</td>
+    <td align="left">O Sistema deve listar todos os filmes em cartaz no cinema.</td>
+    <td align="center">ALTA</td>
+  </tr>
+    <tr>
+    <td align="center">RF-005</td>
+    <td align="left">O Sistema deve informar os horários dos filmes.</td>
+    <td align="center">ALTA</td>
+  </tr>
+    <tr>
+    <td align="center">RF-006</td>
+    <td align="left">O Sistema deve informar a disponibilidade de um filme.</td>
+    <td align="center">ALTA</td>
+  </tr>
+    <tr>
+    <td align="center">RF-007</td>
+    <td align="left">O Sistema deve permitir que o usuário escolha quais assentos reservar durante a compra dos ingressos.</td>
+    <td align="center">ALTA</td>
+  </tr>
+    <tr>
+    <td align="center">RF-008</td>
+    <td align="left">O Sistema deve permitir que o usuário desista da compra dos ingressos 1 hora antes do filme começar.</td>
+    <td align="center">ALTA</td>
+  </tr>
+    <tr>
+    <td align="center">RF-009</td>
+    <td align="left">O Sistema deve permitir que o usuário escolha em qual sala do cinema deseja ver o filme.</td>
+    <td align="center">ALTA</td>
+  </tr>
+    <tr>
+    <td align="center">RF-010</td>
+    <td align="left">O Sistema deve permitir que o usuário imprima os ingressos.  </td>
+    <td align="center">ALTA</td>
+  </tr>
+</table>
 
 ### Requisitos não Funcionais
 
-|ID     | Descrição do Requisito  |Prioridade |
-|-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
-
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
+<table>
+  <tr>
+    <td align="center" width="100">ID</td>
+    <td align="center" width="800">Descrição do Requisito</td>
+    <td align="center" width="100">Prioridade</td>
+  </tr>
+  <tr>
+    <td align="center">RNF-001</td>
+    <td align="left">O Sistema deve notificar o usuário 30 min antes de seu filme começar.</td>
+    <td align="center">ALTA</td>
+  </tr>
+  <tr>
+    <td align="center">RNF-002</td>
+    <td align="left">O Sistema deve listar separadamente filmes sem disponibilidade.</td>
+    <td align="center">ALTA</td>
+  </tr>
+  <tr>
+    <td align="center">RNF-003</td>
+    <td align="left">O Sistema deve implementar um sistema de fila para a 
+escolha dos assentos, não permitindo mais usuários do que 
+assentos disponíveis.
+</td>
+    <td align="center">ALTA</td>
+  </tr>
+  <tr>
+    <td align="center">RNF-004</td>
+    <td align="left">O Sistema deve escalar horizontalmente caso necessário.</td>
+    <td align="center">ALTA</td>
+  </tr>
+  <tr>
+    <td align="center">RNF-005</td>
+    <td align="left">O Sistema deve liberar os assentos caso um usuário desista 
+de seu ingresso.</td>
+    <td align="center">ALTA</td>
+  </tr>
+  <tr>
+    <td align="center">RNF-006</td>
+    <td align="left">O Sistema deve reservar os assentos temporariamente por 5 
+min após a escolha dos assentos pelo usuário, liberando caso 
+não seja efetuada a compra dos ingressos.</td>
+    <td align="center">ALTA</td>
+  </tr>
+  <tr>
+    <td align="center">RNF-007</td>
+    <td align="left">O Sistema deve sugerir salas alternativas caso não haja 
+disponibilidade na sala atual.</td>
+    <td align="center">ALTA</td>
+  </tr>
+</table>
 
 ## Restrições
 
@@ -111,63 +387,29 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
 |01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+|02| O projeto deverá ser feito apenas por integrantes do grupo |
 
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
 
 ## Diagrama de Casos de Uso
 
-O diagrama de casos de uso é o próximo passo após a elicitação de requisitos, que utiliza um modelo gráfico e uma tabela com as descrições sucintas dos casos de uso e dos atores. Ele contempla a fronteira do sistema e o detalhamento dos requisitos funcionais com a indicação dos atores, casos de uso e seus relacionamentos. 
-
-As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Casos de Uso”.
-
-> **Links Úteis**:
-> - [Criando Casos de Uso](https://www.ibm.com/docs/pt-br/elm/6.0?topic=requirements-creating-use-cases)
-> - [Como Criar Diagrama de Caso de Uso: Tutorial Passo a Passo](https://gitmind.com/pt/fazer-diagrama-de-caso-uso.html/)
-> - [Lucidchart](https://www.lucidchart.com/)
-> - [Astah](https://astah.net/)
-> - [Diagrams](https://app.diagrams.net/)
+// TODO
 
 # Matriz de Rastreabilidade
 
-A matriz de rastreabilidade é uma ferramenta usada para facilitar a visualização dos relacionamento entre requisitos e outros artefatos ou objetos, permitindo a rastreabilidade entre os requisitos e os objetivos de negócio. 
-
-A matriz deve contemplar todos os elementos relevantes que fazem parte do sistema, conforme a figura meramente ilustrativa apresentada a seguir.
-
-![Exemplo de matriz de rastreabilidade](img/02-matriz-rastreabilidade.png)
-
-> **Links Úteis**:
-> - [Artigo Engenharia de Software 13 - Rastreabilidade](https://www.devmedia.com.br/artigo-engenharia-de-software-13-rastreabilidade/12822/)
-> - [Verificação da rastreabilidade de requisitos usando a integração do IBM Rational RequisitePro e do IBM ClearQuest Test Manager](https://developer.ibm.com/br/tutorials/requirementstraceabilityverificationusingrrpandcctm/)
-> - [IBM Engineering Lifecycle Optimization – Publishing](https://www.ibm.com/br-pt/products/engineering-lifecycle-optimization/publishing/)
-
+// TODO
 
 # Gerenciamento de Projeto
 
-De acordo com o PMBoK v6 as dez áreas que constituem os pilares para gerenciar projetos, e que caracterizam a multidisciplinaridade envolvida, são: Integração, Escopo, Cronograma (Tempo), Custos, Qualidade, Recursos, Comunicações, Riscos, Aquisições, Partes Interessadas. Para desenvolver projetos um profissional deve se preocupar em gerenciar todas essas dez áreas. Elas se complementam e se relacionam, de tal forma que não se deve apenas examinar uma área de forma estanque. É preciso considerar, por exemplo, que as áreas de Escopo, Cronograma e Custos estão muito relacionadas. Assim, se eu amplio o escopo de um projeto eu posso afetar seu cronograma e seus custos.
+// TODO
 
 ## Gerenciamento de Tempo
 
-Com diagramas bem organizados que permitem gerenciar o tempo nos projetos, o gerente de projetos agenda e coordena tarefas dentro de um projeto para estimar o tempo necessário de conclusão.
-
-![Diagrama de rede simplificado notação francesa (método francês)](img/02-diagrama-rede-simplificado.png)
-
-O gráfico de Gantt ou diagrama de Gantt também é uma ferramenta visual utilizada para controlar e gerenciar o cronograma de atividades de um projeto. Com ele, é possível listar tudo que precisa ser feito para colocar o projeto em prática, dividir em atividades e estimar o tempo necessário para executá-las.
-
-![Gráfico de Gantt](img/02-grafico-gantt.png)
+// TODO
 
 ## Gerenciamento de Equipe
 
-O gerenciamento adequado de tarefas contribuirá para que o projeto alcance altos níveis de produtividade. Por isso, é fundamental que ocorra a gestão de tarefas e de pessoas, de modo que os times envolvidos no projeto possam ser facilmente gerenciados. 
-
-![Simple Project Timeline](img/02-project-timeline.png)
+// TODO
 
 ## Gestão de Orçamento
 
-O processo de determinar o orçamento do projeto é uma tarefa que depende, além dos produtos (saídas) dos processos anteriores do gerenciamento de custos, também de produtos oferecidos por outros processos de gerenciamento, como o escopo e o tempo.
-
-![Orçamento](img/02-orcamento.png)
+// TODO
