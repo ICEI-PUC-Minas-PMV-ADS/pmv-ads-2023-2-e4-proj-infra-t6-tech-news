@@ -1,46 +1,41 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+No cenário atual, a tecnologia tem desempenhado um papel significativo na transformação de diversos setores da sociedade,
+incluindo a indústria cinematográfica. Com o avanço da internet, sistemas que proporcionam comodidade e facilidade para as pessoas são cada vez mas necessários,
+até mesmo quando se fala sobre compra de ingressos para filmes.
+Um sistema de compra de ingressos de filmes de forma online emergiu como uma solução inovadora para proporcionar conveniência e eficiência aos espectadores,
+trazendo mais segurança e agilidade no processo.
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+O processo convencional de compra de ingressos de filmes muitas vezes envolve filas demoradas nas bilheteiras físicas,
+a possibilidade de ingressos esgotados e a necessidade de chegar com antecedência para garantir um lugar.
+Além disso, atualmente os sistemas já existentes de compra de ingressos online,
+estão tendo problemas ao lidar com o aumento exponencial de tráfego em seus sistemas durante lançamentos devido a uma estrutura inadequada,
+gerando dor de cabeça para os usuários que utilizam esses sistemas.
+Esses desafios ressaltam a necessidade de um sistema alternativo de compra de ingressos que seja mais conveniente, seguro e eficiente.
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
-
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+O principal objetivo deste sistema de compra de ingressos de filmes online é proporcionar aos usuários a comodidade de adquirir ingressos de maneira rápida e segura,
+eliminando a necessidade de enfrentar filas e se preocupar com a disponibilidade dos ingressos.
+Além disso, o sistema busca oferecer uma experiência personalizada, permitindo que os espectadores escolham assentos específicos nas salas de cinema,
+visualizem trailers e sinopses dos filmes em cartaz e efetuem o pagamento de forma segura, tudo no conforto de suas casas.
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+A implementação de um sistema de compra de ingressos de filmes online é justificada pelo desejo de atender às demandas e expectativas crescentes dos espectadores modernos.
+A conveniência e a flexibilidade oferecidas por esse sistema não apenas melhoram a experiência do usuário, mas também têm o potencial de resolver o problemas sofrido pelos cinemas durante lançamentos de filmes,
+onde a demanda por ingressos aumenta de forma exponencial e ocassiona muitas vezes em um crash dos sistemas e em muitos clientes insastifeitos.  
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
-
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+Um recente estudo realizado pelo "Cinema Insight Report" revelou que cerca de 60% dos cinéfilos enfrentam frustrações ao tentar assistir a filmes em lançamento devido a longas filas nas
+bilheteiras e à constante preocupação com ingressos esgotados. O relatório também destacou que mais de 75% dos entrevistados expressaram interesse em adotar
+um método de compra de ingressos mais conveniente e tecnológico.
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
-
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+O público-alvo desse sistema abrange uma ampla gama de indivíduos,
+incluindo jovens, adultos e famílias. Os jovens, que são nativos digitais, geralmente preferem soluções online e estão familiarizados com a tecnologia.
+Os adultos, por sua vez, podem valorizar a comodidade de comprar ingressos sem precisar se deslocar fisicamente.
+Além disso, as famílias podem se beneficiar ao planejar suas idas ao cinema com antecedência,
+selecionando assentos próximos uns aos outros. Portanto, o sistema visa atender às necessidades variadas desse público diversificado.
