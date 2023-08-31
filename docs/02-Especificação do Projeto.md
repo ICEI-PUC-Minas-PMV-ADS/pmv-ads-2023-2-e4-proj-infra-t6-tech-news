@@ -391,8 +391,11 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 
 ## Diagrama de Casos de Uso
-
-// TODO
+<table>
+  <tr>
+    <td width="700" align="center" rowspan="3"><img alt="Diagrama Caso de uso" src="https://github.com/brunosellas/pmv-ads-2023-2-e4-proj-infra-t6-ingresso-facil/assets/102563767/c552c620-14bb-4044-b16c-b7abc41ec281"></td>
+  </tr>
+</table>
 
 # Matriz de Rastreabilidade
 
