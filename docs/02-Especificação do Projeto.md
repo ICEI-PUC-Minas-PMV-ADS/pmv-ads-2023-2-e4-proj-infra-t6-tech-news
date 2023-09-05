@@ -246,9 +246,9 @@ Temos como objetivo tornar este processo de ingresso o mais simples, prático, �
 
 Junto a este objetivo, temos como possíveis melhorias, a visualização de traillers e sinopses dos filmes estampados em cartaz, para facilitar a escolha do usuário, tornando o processo mais imersivo dentro do seu próprio lar.
 
-### Processo 1 – Compra de Ingresso
+### Processo – Compra de Ingresso
 
-// TODO
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t6-ingresso-facil/blob/89a9549c19520bd30cb647b440382ed75349b896/docs/img/Modelo%20BPMN%20-%20Compra%20de%20Ingresso.png
 
 ### Processo 2 – To Be (Modelo ideal - pós implementação da solução)
 
