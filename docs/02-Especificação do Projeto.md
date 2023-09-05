@@ -238,11 +238,13 @@ A fim de buscar mais informações sobre os motivos e causas de uso dessas pesso
 
 ### Análise da Situação Atual
 
-// TODO
+Percebemos que os processos atuais para a realização de compras de ingressos para filmes tem se tornado a cada dia mais cansativos e intediantes. A lentidão em suas imensas filas de bilheterias, dificuldades para a escolha de um lugar mais visível durante o filme e sistemas sobrecarregados devido ao aumento gradativo da opção de compra de ingressos online, foram os fatores que nos levaram a criação deste projeto. 
 
 ### Descrição Geral da Proposta
 
-//TODO
+Temos como objetivo tornar este processo de ingresso o mais simples, prático, ágil e seguro possível. Removendo assim, este duradouro e cansativo processo de compras para uma forma mais objetiva. 
+
+Junto a este objetivo, temos como possíveis melhorias, a visualização de traillers e sinopses dos filmes estampados em cartaz, para facilitar a escolha do usuário, tornando o processo mais imersivo dentro do seu próprio lar.
 
 ### Processo 1 – As Is (Modelo atual - sem implementação da solução)
 
