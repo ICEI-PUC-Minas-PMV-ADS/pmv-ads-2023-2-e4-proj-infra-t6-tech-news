@@ -246,7 +246,7 @@ Temos como objetivo tornar este processo de ingresso o mais simples, prático, �
 
 Junto a este objetivo, temos como possíveis melhorias, a visualização de traillers e sinopses dos filmes estampados em cartaz, para facilitar a escolha do usuário, tornando o processo mais imersivo dentro do seu próprio lar.
 
-### Processo 1 – As Is (Modelo atual - sem implementação da solução)
+### Processo 1 – Compra de Ingresso
 
 // TODO
 
