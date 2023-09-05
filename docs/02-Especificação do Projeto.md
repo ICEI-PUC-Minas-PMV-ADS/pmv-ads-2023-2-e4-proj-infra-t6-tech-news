@@ -248,7 +248,7 @@ Junto a este objetivo, temos como possíveis melhorias, a visualização de trai
 
 ### Processo – Compra de Ingresso
 
-https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t6-ingresso-facil/blob/89a9549c19520bd30cb647b440382ed75349b896/docs/img/Modelo%20BPMN%20-%20Compra%20de%20Ingresso.png
+!(https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t6-ingresso-facil/blob/89a9549c19520bd30cb647b440382ed75349b896/docs/img/Modelo%20BPMN%20-%20Compra%20de%20Ingresso.png)
 
 ### Processo 2 – To Be (Modelo ideal - pós implementação da solução)
 
