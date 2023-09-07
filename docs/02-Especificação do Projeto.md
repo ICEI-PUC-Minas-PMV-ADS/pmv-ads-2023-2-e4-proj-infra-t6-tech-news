@@ -404,7 +404,25 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 # Matriz de Rastreabilidade
 
-// TODO
+| ID do Requisito | Descrição do Requisito | Prioridade | Requisito Associado |
+|------------------|-------------------------|------------|----------------------|
+| RF-001 | O Sistema deve permitir que o usuário crie uma conta. | ALTA | - |
+| RF-002 | O Sistema deve permitir que o usuário faça login em uma conta já cadastrada. | ALTA | - |
+| RF-003 | O Sistema deve permitir que o usuário recupere a senha de sua conta. | ALTA | - |
+| RF-004 | O Sistema deve listar todos os filmes em cartaz no cinema. | ALTA | - |
+| RF-005 | O Sistema deve informar os horários dos filmes. | ALTA | - |
+| RF-006 | O Sistema deve informar a disponibilidade de um filme. | ALTA | - |
+| RF-007 | O Sistema deve permitir que o usuário escolha quais assentos reservar durante a compra dos ingressos. | ALTA | - |
+| RF-008 | O Sistema deve permitir que o usuário desista da compra dos ingressos 1 hora antes do filme começar. | ALTA | - |
+| RF-009 | O Sistema deve permitir que o usuário escolha em qual sala do cinema deseja ver o filme. | ALTA | - |
+| RF-010 | O Sistema deve permitir que o usuário imprima os ingressos. | ALTA | - |
+| RNF-001 | O Sistema deve notificar o usuário 30 min antes de seu filme começar. | ALTA | - |
+| RNF-002 | O Sistema deve listar separadamente filmes sem disponibilidade. | ALTA | - |
+| RNF-003 | O Sistema deve implementar um sistema de fila para a escolha dos assentos, não permitindo mais usuários do que assentos disponíveis. | ALTA | RF-007 |
+| RNF-004 | O Sistema deve escalar horizontalmente caso necessário. | ALTA | - |
+| RNF-005 | O Sistema deve liberar os assentos caso um usuário desista de seu ingresso. | ALTA | RF-007 |
+| RNF-006 | O Sistema deve reservar os assentos temporariamente por 5 min após a escolha dos assentos pelo usuário, liberando caso não seja efetuada a compra dos ingressos. | ALTA | RF-007 |
+| RNF-007 | O Sistema deve sugerir salas alternativas caso não haja disponibilidade na sala atual. | ALTA | RF-009 |
 
 # Gerenciamento de Projeto
 
