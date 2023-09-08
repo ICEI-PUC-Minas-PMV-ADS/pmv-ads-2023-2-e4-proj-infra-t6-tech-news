@@ -28,9 +28,10 @@ A implementação de um sistema de compra de ingressos de filmes online é justi
 A conveniência e a flexibilidade oferecidas por esse sistema não apenas melhoram a experiência do usuário, mas também têm o potencial de resolver o problemas sofrido pelos cinemas durante lançamentos de filmes,
 onde a demanda por ingressos aumenta de forma exponencial e ocassiona muitas vezes em um crash dos sistemas e em muitos clientes insastifeitos.  
 
-Um recente estudo realizado pelo "Cinema Insight Report" revelou que cerca de 60% dos cinéfilos enfrentam frustrações ao tentar assistir a filmes em lançamento devido a longas filas nas
-bilheteiras e à constante preocupação com ingressos esgotados. O relatório também destacou que mais de 75% dos entrevistados expressaram interesse em adotar
-um método de compra de ingressos mais conveniente e tecnológico.
+Um recente estudo realizado pelo "Forbes" revelou que cerca de 60% dos cinéfilos nos dias de hoje compram seus ingressos online de forma antecipada, contra cerca de 40% cinéfilos que ainda preferem ir até o cinema para comprar o ingresso de forma física. Esse aumento da demanda de pessoas em busca pela compra de ingressos online pode gerar frustrações em muitos que ao tentarem assistir a um filmes em lançamento encontram quedas frequentes e dificuldades técnicas para comprar um ingresso devido a grande quantidade de compras feitas ao mesmo tempo em sistemas que não estão preparados para tal. 
+Por meio de entrentevistas a candidatos voluntários vemos também que boa parte dos entrevistados expressaram interesse em adotar
+um método de compra de ingressos mais conveniente, performatico e tecnológico.
+Link da referencia: https://www.forbes.com/sites/scottmendelson/2019/03/11/more-moviegoers-buying-more-of-their-tickets-online-study-shows/?sh=3b88de4b4003
 
 ## Público-Alvo
 
