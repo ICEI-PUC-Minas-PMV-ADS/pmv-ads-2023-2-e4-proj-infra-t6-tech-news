@@ -36,7 +36,7 @@ Seguem demonstradas por meio dos quadros apresentados o levantamento feito das p
    <td>
     ●	Estar sempre muito ligado ao trabalho.<br>
      <br>
-    ●	Não ter tempo de qualiodade com sua esposa.<br>
+    ●	Não ter tempo de qualidade com sua esposa.<br>
    </td>
    <td>
     ●	Não possui Hobbies<br>
@@ -220,7 +220,7 @@ A fim de buscar mais informações sobre os motivos e causas de uso dessas pesso
        <tr>
         <td>Maria Soares</td>
         <td>Acompanhar todos os lancamentos do cinema.</td>
-        <td>Aumentar as vizualizações do meu canal no youtube.</td>
+        <td>Aumentar as visualizações do meu canal no youtube.</td>
       </tr>
        <tr>
         <td>Isabela Campos</td>
@@ -294,7 +294,7 @@ Assim, forma-se um quadrante, que é usado para obter o nível de prioridade do 
     <tr>
     <td align="center">RF-003</td>
     <td align="left">O Sistema deve permitir que o usuário recupere a senha de sua conta.</td>
-    <td align="center">ALTA</td>
+    <td align="center">MEDIA</td>
   </tr>
     <tr>
     <td align="center">RF-004</td>
@@ -324,11 +324,21 @@ Assim, forma-se um quadrante, que é usado para obter o nível de prioridade do 
     <tr>
     <td align="center">RF-009</td>
     <td align="left">O Sistema deve permitir que o usuário escolha em qual sala do cinema deseja ver o filme.</td>
-    <td align="center">ALTA</td>
+    <td align="center">MEDIA</td>
   </tr>
     <tr>
     <td align="center">RF-010</td>
     <td align="left">O Sistema deve permitir que o usuário imprima os ingressos.  </td>
+    <td align="center">MEDIA</td>
+  </tr>
+  <tr>
+    <td align="center">RF-011</td>
+    <td align="left">O Sistema deve notificar o usuário quando o tempo para reembolso de ingressos se esgotar.  </td>
+    <td align="center">MEDIA</td>
+  </tr>
+  <tr>
+    <td align="center">RF-012</td>
+    <td align="left">O Sistema deve informar quais os cinemas mais próximos ao usuário estão dísponíveis para a exibição do ingresso comprado.  </td>
     <td align="center">ALTA</td>
   </tr>
 </table>
