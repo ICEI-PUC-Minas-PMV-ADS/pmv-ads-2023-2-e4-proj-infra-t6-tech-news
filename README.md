@@ -1,27 +1,34 @@
-# TÍTULO DO PROJETO
+![ShapeUp-logomarca](https://github.com/brunosellas/pmv-ads-2023-2-e4-proj-infra-t6-ingresso-facil/assets/102563767/5077ab30-7071-4d28-977f-7aa1d1860187)
 
-`CURSO`
 
-`DISCIPLINA`
 
-`SEMESTRE`
+<h6 align="right">Criado em 30 de Agosto de 2023<br><a href="https://www.pucminas.br/PucVirtual/Paginas/default.aspx">PUC Minas Virtual</a></h6>
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+`Análise e Desenvolvimento de Sistemas`
+
+`Projeto: Análise e Projeto de Sistemas de Software`
+
+`Quarto Semestre`
+
+## Descrição
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+| [<img src="https://avatars.githubusercontent.com/u/82043220?v=4" width=115><br><sub>Raul Shinaede</sub>](https://github.com/RaulShinaede) | [<img src="https://avatars.githubusercontent.com/u/102563767?v=4" width=115><br><sub>Bruno Sellas</sub>](https://github.com/brunosellas) | [<img src="https://github.com/jramiresbrito.png" width=115><br><sub>João Victor Ramires Guimarães Brito</sub>](https://github.com/jramiresbrito) | [<img src="https://github.com/rafaeldrubio.png" width=115><br><sub>Rafael Rubio</sub>](https://github.com/rafaeldrubio) | [<img src="https://github.com/TulioFS.png" width=115><br><sub>Marco Túlio Félix Santiago</sub>](https://github.com/TulioFS) | [<img src="https://github.com/lucasdamasceno96.png" width=115><br><sub>Lucas Damasceno</sub>](https://github.com/lucasdamasceno96)
+| :---: | :---: | :---: | :---: | :---: | :---: |
 
 ## Orientador
 
-* Nome completo do professor 1
+| [<img src="" width=115><br><sub>Pedro Felipe Alves de Oliveira</sub>]() |
+| :---: |
 
 ## Instruções de utilização
 
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
+// TODO:
+
+- ✅ Como baixar
+- 📦 Como compilar
+- 🚀 Como executar 
 
 # Documentação
 
