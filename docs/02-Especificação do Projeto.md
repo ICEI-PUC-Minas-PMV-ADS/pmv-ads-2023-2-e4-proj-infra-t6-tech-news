@@ -437,12 +437,12 @@ Isso permite rastrear como os requisitos funcionais e não funcionais estão rel
     <tr>
       <td>RF-002</td>
       <td>O Sistema deve permitir que o usuário faça login em uma conta já cadastrada.</td>
-      <td>-</td>
+      <td>RF-001</td>
     </tr>
     <tr>
       <td>RF-003</td>
       <td>O Sistema deve permitir que o usuário recupere a senha de sua conta.</td>
-      <td>-</td>
+      <td>RF-001</td>
     </tr>
     <tr>
       <td>RF-004</td>
@@ -452,42 +452,52 @@ Isso permite rastrear como os requisitos funcionais e não funcionais estão rel
     <tr>
       <td>RF-005</td>
       <td>O Sistema deve informar os horários dos filmes.</td>
-      <td>-</td>
+      <td>RF-004</td>
     </tr>
     <tr>
       <td>RF-006</td>
       <td>O Sistema deve informar a disponibilidade de um filme.</td>
-      <td>-</td>
+      <td>RF-004</td>
     </tr>
     <tr>
       <td>RF-007</td>
       <td>O Sistema deve permitir que o usuário escolha quais assentos reservar durante a compra dos ingressos.</td>
-      <td>-</td>
+      <td>RF-005, RF-006, RF-009</td>
     </tr>
     <tr>
       <td>RF-008</td>
       <td>O Sistema deve permitir que o usuário desista da compra dos ingressos 1 hora antes do filme começar.</td>
-      <td>-</td>
+      <td>RF-007</td>
     </tr>
     <tr>
       <td>RF-009</td>
       <td>O Sistema deve permitir que o usuário escolha em qual sala do cinema deseja ver o filme.</td>
-      <td>-</td>
+      <td>RF-004, RF-012</td>
     </tr>
     <tr>
       <td>RF-010</td>
       <td>O Sistema deve permitir que o usuário imprima os ingressos.</td>
-      <td>-</td>
+      <td>RF-007</td>
+    </tr>
+    <tr>
+      <td>RF-011</td>
+      <td>O Sistema deve notificar o usuário quando o tempo para reembolso de ingressos se esgotar.</td>
+      <td>RF-008</td>
+    </tr>
+    <tr>
+      <td>RF-012</td>
+      <td>O Sistema deve informar quais os cinemas mais próximos ao usuário possuem salas com exibição do filme escolhido.</td>
+      <td>RF-004, RF-006</td>
     </tr>
     <tr>
       <td>RNF-001</td>
       <td>O Sistema deve notificar o usuário 30 min antes de seu filme começar.</td>
-      <td>-</td>
+      <td>RF-007</td>
     </tr>
     <tr>
       <td>RNF-002</td>
       <td>O Sistema deve listar separadamente filmes sem disponibilidade.</td>
-      <td>-</td>
+      <td>RF-006</td>
     </tr>
     <tr>
       <td>RNF-003</td>
@@ -502,7 +512,7 @@ Isso permite rastrear como os requisitos funcionais e não funcionais estão rel
     <tr>
       <td>RNF-005</td>
       <td>O Sistema deve liberar os assentos caso um usuário desista de seu ingresso.</td>
-      <td>RF-007</td>
+      <td>RF-008</td>
     </tr>
     <tr>
       <td>RNF-006</td>
