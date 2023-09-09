@@ -246,20 +246,22 @@ Temos como objetivo tornar este processo de ingresso o mais simples, prático, �
 
 Junto a este objetivo, temos como possíveis melhorias, a visualização de traillers e sinopses dos filmes estampados em cartaz, para facilitar a escolha do usuário, tornando o processo mais imersivo dentro do seu próprio lar.
 
-### Processo – Compra de Ingresso
+### Processo – Compra de Ingresso - As Is
 <table>
   <tr>
     <td width="700" align="center" rowspan="3"><img alt="Modelagem de Processo" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t6-ingresso-facil/blob/89a9549c19520bd30cb647b440382ed75349b896/docs/img/Modelo%20BPMN%20-%20Compra%20de%20Ingresso.png"></td>
   </tr>
 </table>
 
-### Processo 2 – To Be (Modelo ideal - pós implementação da solução)
-
-// TODO
+### Processo – Possíveis Melhorias - To Be 
+<table>
+  <tr>
+    <td width="700" align="center" rowspan="3"><img alt="Modelagem de Processo" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t6-ingresso-facil/blob/f688a0769f574a2077fa8cc9ee86b634364e54ab/docs/img/Modelo%20BPMN%20-%20To%20Be.png"></td>
+  </tr>
+</table>
 
 ## Relação Potencialidades e Oportunidades de Melhoria para o Processo de Negócio
-
-// TODO
+No processo As Is podemos ver um padrão mais simples e básico mediante a necessidade atual dos usuários, trazemos junto do processo TO BE, uma possível melhoria que auxiliaria para os futuros usuários terem bases de filmes com avaliações baseadas na experiência vivida pelos antigos usuários. Teriamos como base avalições dos filmes para que os usuários pudessem retirar suas dúvidas quantos as qualidades dos filmes.
 
 ## Indicadores de Desempenho
 
