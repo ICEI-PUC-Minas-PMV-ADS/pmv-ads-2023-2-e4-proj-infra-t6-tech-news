@@ -19,7 +19,7 @@
 
 ## Orientador
 
-| [<img src="" width=115><br><sub>Pedro Felipe Alves de Oliveira</sub>]() |
+| [<img src="https://github.com/pedrofao.png" width=115><br><sub>Pedro Felipe Alves de Oliveira</sub>](https://github.com/pedrofao) |
 | :---: |
 
 ## Instruções de utilização
