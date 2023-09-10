@@ -539,12 +539,30 @@ Conforme mencionado no item anterior, o Asana apresenta o detalhamento de cada s
 Para este projeto utilizares o espaço do github para gerenciamento de Projetos no estilo Kanban. 
 <a href="https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/579"> Gerenciamento de Projeto</a> 
 
+Gerenciamos o tempo de acordo com as datas e cronogramas oferecidos pela univercidade como base:
+
+![Alt text](../docs/img/image.png)
 
 ![Captura de tela de 2023-09-09 20-36-46](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t6-ingresso-facil/assets/105467049/de946ec5-322c-4fcd-b1be-ecfb1485bd63)
 
+
 ## Gerenciamento de Equipe
 
+Em "<a href="https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/579"> Gerenciamento de Projeto</a> ", gerenciamos as datas, equipe, e atividades a serem realizadas.
 
+![Alt text](../docs/img/Github_Project.png)
+
+ | Scrum Master  |
+ |---------------|
+ |● Bruno Sellas |
+
+| Equipe de Desenvolvimento|
+|--------------------------|
+| ● Raul Shinaede          |
+| ● João Brito             |
+| ● Lucas Damasceno        |
+| ● Marco Túlio            |
+| ● Rafael Rubio           |
 
 
 
