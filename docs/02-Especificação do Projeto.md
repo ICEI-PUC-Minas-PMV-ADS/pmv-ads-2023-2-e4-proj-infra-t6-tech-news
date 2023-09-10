@@ -530,16 +530,39 @@ Isso permite rastrear como os requisitos funcionais e não funcionais estão rel
 
 # Gerenciamento de Projeto
 
-// TODO
+De acordo com o PMBoK v6 as dez áreas que constituem os pilares para gerenciar projetos, e que caracterizam a multidisciplinaridade envolvida, são: Integração, Escopo, Cronograma (Tempo), Custos, Qualidade, Recursos, Comunicações, Riscos, Aquisições, Partes Interessadas. Para desenvolver projetos um profissional deve se preocupar em gerenciar todas essas dez áreas. Elas se complementam e se relacionam, de tal forma que não se deve apenas examinar uma área de forma estanque. É preciso considerar, por exemplo, que as áreas de Escopo, Cronograma e Custos estão muito relacionadas. Assim, se eu amplio o escopo de um projeto eu posso afetar seu cronograma e seus custos.
 
 ## Gerenciamento de Tempo
 
-// TODO
+O gerenciamento adequado de tarefas contribuirá para que o projeto alcance altos níveis de produtividade. Por isso, é fundamental que ocorra a gestão de tarefas e de pessoas, de modo que os times envolvidos no projeto possam ser facilmente gerenciados.
+Conforme mencionado no item anterior, o Asana apresenta o detalhamento de cada sprint, com indicação de colaborar encarregado de cada tarefa e com atalho para comunicação com o mesmo facilitando tanto a gestão da equipe quanto a visualização do status de progressão das tarefas:
+Para este projeto utilizares o espaço do github para gerenciamento de Projetos no estilo Kanban. 
+<a href="https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/579"> Gerenciamento de Projeto</a> 
+
+
+![Captura de tela de 2023-09-09 20-36-46](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t6-ingresso-facil/assets/105467049/de946ec5-322c-4fcd-b1be-ecfb1485bd63)
 
 ## Gerenciamento de Equipe
 
-// TODO
+
+
+
 
 ## Gestão de Orçamento
 
-// TODO
+O processo de determinar o orçamento do projeto é uma tarefa que depende, além dos produtos (saídas) dos processos anteriores do gerenciamento de custos, também de produtos oferecidos por outros processos de gerenciamento, como o escopo e o tempo.
+
+| Gasto Estimado                 | Valor                                                                                   |
+|--------------------------------|----------------------------------------------------------------------------------------------------------|
+| Recursos Humanos               |  R$ 20.000,00      |                                                                                 | | UX/UI                          |  R$ 15.000,00      |             
+| Desenvolvimento                |  R$ 92.000,00      |
+| Gestão de Projeto              |  R$ 5.000,00       | 
+| Infraestrutura                 |  R$ 12.000,00      |
+| Hardware                       |  R$ 20.000,00      |
+| Marketing		                    |  R$5.000,00        |
+| Cursos e treinamentos          |  R$ 5.400,00       |
+| Licenças de Softwares          |  R$ 10.000,00      |
+| Hospedagem	                    |  R$2.000,00        |  
+| **Total**                      |  **R$ 186.000,00** |
+
+
