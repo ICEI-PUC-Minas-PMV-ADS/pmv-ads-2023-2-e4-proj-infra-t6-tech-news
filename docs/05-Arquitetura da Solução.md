@@ -1,10 +1,10 @@
 # Arquitetura da Solução
 
-<span style="color:red">Pré-requisitos: <a href="3-Projeto de Interface.md"> Projeto de Interface</a></span>
+A arquitetura de solução é um elemento fundamental no campo da tecnologia da informação e sistemas de informação. Ela desempenha um papel crucial na concepção, desenvolvimento e implementação de sistemas complexos e eficazes para atender às necessidades de negócios e tecnológicas de uma organização. 
 
-Definição de como o software é estruturado em termos dos componentes que fazem parte da solução e do ambiente de hospedagem da aplicação.
+A seguir está a arquitetura distribuída da solução, com os serviços e componentes que fazem parte da solução.
 
-![Arquitetura da Solução](img/02-mob-arch.png)
+![Arquitetura da Solução Distribuida](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t6-ingresso-facil/assets/82043220/0f5c2c67-5db1-4fd7-b94f-2422bf89383b)
 
 ## Diagrama de Classes
 
