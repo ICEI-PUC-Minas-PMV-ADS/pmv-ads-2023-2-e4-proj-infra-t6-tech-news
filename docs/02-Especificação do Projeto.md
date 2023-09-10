@@ -340,7 +340,7 @@ Assim, forma-se um quadrante, que é usado para obter o nível de prioridade do 
   </tr>
   <tr>
     <td align="center">RF-012</td>
-    <td align="left">O Sistema deve informar quais os cinemas mais próximos ao usuário estão dísponíveis para a exibição do ingresso comprado.  </td>
+    <td align="left">O Sistema deve informar quais os cinemas mais próximos ao usuário possuem salas com exibição do filme escolhido.  </td>
     <td align="center">ALTA</td>
   </tr>
 </table>
