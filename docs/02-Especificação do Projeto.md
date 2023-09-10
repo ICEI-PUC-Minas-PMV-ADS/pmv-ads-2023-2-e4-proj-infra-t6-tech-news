@@ -264,16 +264,13 @@ Junto a este objetivo, temos como possíveis melhorias, a visualização de trai
 No processo As Is podemos ver um padrão mais simples e básico mediante a necessidade atual dos usuários, trazemos junto do processo TO BE, uma possível melhoria que auxiliaria para os futuros usuários terem bases de filmes com avaliações baseadas na experiência vivida pelos antigos usuários. Teriamos como base avalições dos filmes para que os usuários pudessem retirar suas dúvidas quantos as qualidades dos filmes.
 
 ## Indicadores de Desempenho
-
-// TODO
+![Indicadores de desempenho ingresso fácil](https://github.com/brunosellas/pmv-ads-2023-2-e4-proj-infra-t6-ingresso-facil/assets/102563767/695116d6-4b03-4949-84d0-508429dbff7b)
 
 ## Requisitos
 
 As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
 Para priorizar os requisitos, foi utilizado  a técnica de Escala de três Níveis, para essa técnica foi definido dois aspectos principais: importância e urgência.
 Assim, forma-se um quadrante, que é usado para obter o nível de prioridade do requisito, como mostrado na figura a seguir:
-
-// [IMAGEM]
 
 ### Requisitos Funcionais
 
