@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IngressoFacil.Catalog.API", "src\IngressoFacil.Catalog.API\IngressoFacil.Catalog.API.csproj", "{BD7602E9-9714-4002-B6B6-7C98A0066593}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IngressoFacil.Catalog.UnitTests", "src\IngressoFacil.Catalog.UnitTests\IngressoFacil.Catalog.UnitTests.csproj", "{38702ACA-F0E5-48F2-9C10-3D0E65009848}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD7602E9-9714-4002-B6B6-7C98A0066593}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD7602E9-9714-4002-B6B6-7C98A0066593}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD7602E9-9714-4002-B6B6-7C98A0066593}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD7602E9-9714-4002-B6B6-7C98A0066593}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38702ACA-F0E5-48F2-9C10-3D0E65009848}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38702ACA-F0E5-48F2-9C10-3D0E65009848}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38702ACA-F0E5-48F2-9C10-3D0E65009848}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38702ACA-F0E5-48F2-9C10-3D0E65009848}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9D831062-0B25-4CED-8B07-BB363BFB6B97}
+	EndGlobalSection
+EndGlobal
