@@ -1,11 +1,6 @@
 ﻿using IngressoFacil.Catalog.API.Builders;
 using IngressoFacil.Catalog.API.Common.Errors;
 using IngressoFacil.Catalog.API.Errors;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace IngressoFacil.Catalog.UnitTests.Builders {
 
