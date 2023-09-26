@@ -1,0 +1,15 @@
+version: "3.1"
+services:
+  web:
+    build: .
+    command: bash -c "bundle install && bundle exec puma -C config/puma.rb"
+    volumes:
+      - .:/users_api
+    ports:
+      - "3000:3000"
+    depends_on:
+      - postgres
+    networks:
+      - users-api-network
+    environment:
+      DATABASE_URL: postgres://users:users@postgres:5432/users
