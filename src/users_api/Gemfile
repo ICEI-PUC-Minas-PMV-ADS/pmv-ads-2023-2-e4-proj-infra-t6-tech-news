@@ -3,6 +3,9 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby "3.0.6"
 
+# Use Devise for user authentication
+gem "devise", "~> 4.9"
+
 # Use GraphQL as the query language the API
 gem "graphql", "~> 2.1"
 
@@ -55,3 +58,5 @@ group :development do
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
 end
+
+
