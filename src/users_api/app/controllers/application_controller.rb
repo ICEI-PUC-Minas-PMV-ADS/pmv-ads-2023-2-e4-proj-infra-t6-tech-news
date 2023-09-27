@@ -1,5 +1,5 @@
 class ApplicationController < ActionController::API
-  include Pundit
+  include Pundit::Authorization
 
   before_action :authenticate_user!
   before_action :configure_permitted_parameters, if: :devise_controller?
@@ -15,6 +15,6 @@ class ApplicationController < ActionController::API
   private
 
   def skip_pundit?
-    devise_controller? || params[:controller] =~ /(^(rails_)?admin)|(^pages$)/
+    devise_controller? || params[:controller] =~ /(^(rails_)?admin)|(^pages$)/ || is_a?(GraphqlController)
   end
 end
