@@ -1,0 +1,7 @@
+AllCops:
+  DisabledByDefault: true
+
+Security:
+  Enabled: true
+  Exclude:
+    - "spec/**/*"
