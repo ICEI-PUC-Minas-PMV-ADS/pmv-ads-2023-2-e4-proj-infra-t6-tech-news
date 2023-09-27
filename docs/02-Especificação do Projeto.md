@@ -463,7 +463,8 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 O diagrama de caso de uso é uma poderosa ferramenta de modelagem utilizada na engenharia de software para representar visualmente como um sistema interage com seus atores externos, ou seja, como ele atende às necessidades dos usuários, clientes, sistemas externos e outros elementos que interagem com ele. Abaixo está o diagrama de caso de uso para o sistema proposto:
 
-![Diagrama de caso de uso](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t6-ingresso-facil/assets/82043220/0b65ed28-bac6-4cf4-88e1-09a24437429d)
+![Diagrama de caso de uso](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t6-ingresso-facil/assets/82043220/f1e7fffc-e51c-4350-9a18-6fd9d8932990)
+
 
 # Matriz de Rastreabilidade
 
