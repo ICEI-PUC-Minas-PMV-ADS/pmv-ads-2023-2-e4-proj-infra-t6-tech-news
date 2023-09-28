@@ -21,4 +21,4 @@ volumes:
 
 networks:
   users-api-network:
-    driver: bridge
+    external: true

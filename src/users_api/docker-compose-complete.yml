@@ -1,5 +1,15 @@
 version: "3.1"
 services:
+  database-manager:
+    build: .
+    volumes:
+      - .:/users_api
+    networks:
+      - users-api-network
+    environment:
+      - DATABASE_URL=postgres://users:users@postgres:5432/users
+    command: bash -c "bundle install && bundle exec rails db:create db:migrate"
+
   web:
     build: .
     command: bash -c "bundle install && bundle exec puma -C config/puma.rb"
@@ -7,9 +17,13 @@ services:
       - .:/users_api
     ports:
       - "3000:3000"
-    depends_on:
-      - postgres
     networks:
       - users-api-network
     environment:
-      DATABASE_URL: postgres://users:users@postgres:5432/users
+      - DATABASE_URL=postgres://users:users@postgres:5432/users
+    depends_on:
+      - database-manager
+
+networks:
+  users-api-network:
+    external: true
