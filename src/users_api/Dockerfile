@@ -1,4 +1,4 @@
-FROM ubuntu:22.04
+FROM ubuntu:20.04
 
 ENV BUNDLER_VERSION=2.4.10 \
   GEM_HOME=/vendor/bundle

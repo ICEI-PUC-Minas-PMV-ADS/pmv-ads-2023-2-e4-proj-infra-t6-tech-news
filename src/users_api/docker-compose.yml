@@ -15,10 +15,15 @@ services:
       - POSTGRES_DB=users
       - POSTGRES_USER=users
       - POSTGRES_PASSWORD=users
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U users"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
 
 volumes:
   pgdata:
 
 networks:
   users-api-network:
-    external: true
+    driver: bridge
