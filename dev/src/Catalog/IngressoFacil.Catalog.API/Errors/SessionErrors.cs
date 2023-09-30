@@ -5,11 +5,7 @@ namespace IngressoFacil.Catalog.API.Errors {
         public SessionStartTimeIsNotValidError() : base() { }
     } 
 
-    public class SessionNotFoundError : Error {
-
-    }
-
-    public class SessionDateBeforeTodayError : Error {
-
-    }
+    public class SessionNotFoundError : Error {}
+    public class SessionAlreadyExistsError : Error {}
+    public class SessionDateBeforeTodayError : Error {}
 }

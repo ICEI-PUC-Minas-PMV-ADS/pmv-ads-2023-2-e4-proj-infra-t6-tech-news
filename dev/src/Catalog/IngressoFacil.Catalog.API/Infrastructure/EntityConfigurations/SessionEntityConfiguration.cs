@@ -9,6 +9,18 @@ namespace IngressoFacil.Catalog.API.Infrastructure.EntityConfigurations {
             builder.Property<DateOnly>(s => s.Date)
                 .HasColumnType("date")
                 .HasConversion<DateOnlyConverter>();
+
+            builder
+                .HasOne(s => s.Movie)
+                .WithMany()
+                .HasForeignKey(S => S.MovieId)
+                .HasPrincipalKey(m => m.Id);
+
+            builder
+                .HasOne(s => s.Theater)
+                .WithMany()
+                .HasForeignKey(s => s.TheaterId)
+                .HasPrincipalKey(t => t.Id);
         }
 
         public class DateOnlyConverter : ValueConverter<DateOnly, DateTime> {
