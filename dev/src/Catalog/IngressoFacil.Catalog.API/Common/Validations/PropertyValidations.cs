@@ -12,5 +12,8 @@
         public static bool HasMaxLength(string property, int maxLength) {
             return property.Length <= maxLength;
         }
+        public static bool IsLowerThan(int n1, int n2) {
+            return n1 < n2;
+        }
     }
 }
