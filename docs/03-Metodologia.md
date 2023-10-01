@@ -3,12 +3,18 @@
 
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
 
-Descreva aqui a metodologia de trabalho do grupo para atacar o problema. Definições sobre os ambiente de trabalho utilizados pela  equipe para desenvolver o projeto. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).
+A metodologia contempla as definições de ferramentas utilizadas pela equipe tanto para a manutenção dos códigos e demais artefatos quanto para a organização do time na execução das tarefas do projeto.
 
 ## Relação de Ambientes de Trabalho
 
-Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito deverá ser apresentada em uma tabela que especifica que detalha Ambiente, Plataforma e Link de Acesso. 
-Nota: Vide documento modelo do estudo de caso "Portal de Notícias" e defina também os ambientes e frameworks que serão utilizados no desenvolvimento de aplicações móveis.
+Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito são apresentados na tabela que se segue:
+
+| Ambiente | Plaforma | Link de acesso |
+| ----- | --------- | -------- |
+| Repositório de código fonte | GitHub | [Repositório Ingresso Fácil](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t6-ingresso-facil)|
+| Documento do Projeto | GitHub | [Documentação GitHub](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t6-ingresso-facil/tree/main/docs)|
+| Projeto de interface e Wireframes |  | ](https://marvelapp.com/prototype/9f7053g)
+| Gerenciamento do Projeto | GitHub | [Gerenciamento GitHub](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/227)
 
 ## Controle de Versão
 
@@ -18,10 +24,10 @@ foi utilizado para hospedagem do repositório.
 
 O projeto segue a seguinte convenção para o nome de branches:
 
-- `main`: versão estável já testada do software
-- `unstable`: versão já testada do software, porém instável
-- `testing`: versão em testes do software
-- `dev`: versão de desenvolvimento do software
+- `main`: Versão final do software já testada
+- `develop`: versão de desenvolvimento de software
+- `joao/add-user-api`: versão em testes do software
+
 
 Quanto à gerência de issues, o projeto adota a seguinte convenção para
 etiquetas:
@@ -48,10 +54,10 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 Apresente a divisão de papéis entre os membros do grupo.
 
 Exemplificação: A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para definição do processo de desenvolvimento. A equipe está organizada da seguinte maneira:
-- Scrum Master: Felipe Domingos;
-- Product Owner: Rommel Carneiro;
-- Equipe de Desenvolvimento: Pedro Penna, Pedro Ivo, Rodrigo Richard;
-- Equipe de Design: Simone Nogueira.
+- Scrum Master: Bruno Sellas;
+- Product Owner: Raul Oliveira;
+- Equipe de Desenvolvimento: Marco Túlio Félix, João Victor Ramires, Lucas Damasceno, Rafael Rubio;
+- Equipe de Design: Raul Oliveira e João Victor Ramires.
 
 > **Links Úteis**:
 > - [11 Passos Essenciais para Implantar Scrum no seu Projeto](https://mindmaster.com.br/scrum-11-passos/)
