@@ -59,5 +59,11 @@ namespace IngressoFacil.Catalog.API.Repositories {
 
             return Result.Ok();
         }
+        public async Task<IEnumerable<Movie>> GetMoviesByCategory(string CategoryName) //Pegue todos os filmes que são iguais a Categoria Nome 
+        {
+            var Movies = await _context.Movies.Where(m => m.Category.Name == CategoryName).ToListAsync();
+            return Movies;
+        }
+        
     }
 }
