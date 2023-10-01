@@ -8,7 +8,7 @@ namespace IngressoFacil.Catalog.API.Errors
     }
     public class MovieCategoryNotFoundError : Error
     {
-        public MovieCategoryNotFoundError(string CategoryNotFoud) : base($"A categoria {CategoryNotFoud} não foi encontrada") { }
+        public MovieCategoryNotFoundError()  : base($"A categoria não foi encontrada") { }
     }
     public class MovieCategoryNameTooShortError : Error
     {

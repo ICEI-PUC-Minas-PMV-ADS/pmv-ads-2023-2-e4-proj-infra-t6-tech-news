@@ -5,6 +5,6 @@ namespace IngressoFacil.Catalog.API.Errors {
     public MovieAlreadyExistsError(string MovieAlreadyExists) : base($"O filme {MovieAlreadyExists} já existe.") { }
     }
     public class MovieNotFoundError : Error {
-    public MovieNotFoundError(string MovieNotFound) :base($"O filme {MovieNotFound} não pode ser encontrado.") { }
+    public MovieNotFoundError() :base($"O filme não pode ser encontrado.") { }
     }
 }

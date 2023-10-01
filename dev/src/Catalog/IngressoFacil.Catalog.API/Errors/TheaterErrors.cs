@@ -11,7 +11,7 @@ namespace IngressoFacil.Catalog.API.Errors {
     public class TheaterNotFoundError : Error 
     {
 
-    public TheaterNotFoundError(int RoomNumberNotFound) : base($"A sala de número {RoomNumberNotFound} não pode ser encontrada.") { }
+    public TheaterNotFoundError() : base($"A sala não pode ser encontrada.") { }
     }
 
     public class TheaterAlreadyExistsError : Error 

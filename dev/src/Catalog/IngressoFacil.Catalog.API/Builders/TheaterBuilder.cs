@@ -21,7 +21,7 @@ namespace IngressoFacil.Catalog.API.Builders {
             }
 
             if (PropertyValidations.IsLowerThan(number, 1)) {
-                _result.WithError(new TheaterNumberIsNegativeError());
+                _result.WithError(new TheaterNumberIsNegativeError(number));
                 return this;
             }
 

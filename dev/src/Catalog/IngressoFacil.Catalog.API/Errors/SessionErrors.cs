@@ -12,4 +12,8 @@ namespace IngressoFacil.Catalog.API.Errors {
     public class SessionDateBeforeTodayError : Error {
         public SessionDateBeforeTodayError(DateOnly date) : base($"A sessão não pode ser criada na data : {date}.") { }
     }
+
+    public class SessionAlreadyExistsError : Error { 
+    public SessionAlreadyExistsError(Guid SessionAlreadyExistsNumber) : base($"A sessão {SessionAlreadyExistsNumber} já existe.") { }    
+    }
 }
