@@ -17,5 +17,12 @@ module Types
     end
 
     field :users, [Types::UserType], null: false, description: "Returns a list of users in the system"
+
+    field :my_tickets, [Types::TicketType], null: false,
+      description: "Retrieve the tickets purchased by the user"
+
+    def my_tickets
+      context[:current_user].tickets
+    end
   end
 end
