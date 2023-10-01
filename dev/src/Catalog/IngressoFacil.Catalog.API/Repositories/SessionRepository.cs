@@ -87,5 +87,10 @@ namespace IngressoFacil.Catalog.API.Repositories {
                 return Result.Fail(exc.Message);
             }
         }
+        public async Task<IEnumerable<Session>> GetSessionByMovie(Guid MovieId)
+        {
+            var Sessions = await _context.Sessions.Where(s => s.MovieId == MovieId).ToListAsync();
+            return Sessions;
+        }
     }
 }
