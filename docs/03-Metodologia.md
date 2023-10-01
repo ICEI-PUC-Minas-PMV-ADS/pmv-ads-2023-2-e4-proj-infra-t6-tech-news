@@ -13,8 +13,8 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 | ----- | --------- | -------- |
 | Repositório de código fonte | GitHub | [Repositório Ingresso Fácil](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t6-ingresso-facil)|
 | Documento do Projeto | GitHub | [Documentação GitHub](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t6-ingresso-facil/tree/main/docs)|
-| Projeto de interface e Wireframes |  | ](https://marvelapp.com/prototype/9f7053g)
-| Gerenciamento do Projeto | GitHub | [Gerenciamento GitHub](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/227)
+| Projeto de interface e Wireframes |  | ()
+| Gerenciamento do Projeto | GitHub |  |
 
 ## Controle de Versão
 
