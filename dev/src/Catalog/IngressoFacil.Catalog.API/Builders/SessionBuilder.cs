@@ -20,7 +20,7 @@ namespace IngressoFacil.Catalog.API.Builders {
             }
 
             if (startTime < new TimeSpan(8,0,0) || startTime > new TimeSpan(22,0,0)) {
-                _result.WithError(new SessionStartTimeIsNotValidError());
+                _result.WithError(new SessionStartTimeIsNotValidError(startTime));
                 return this;
             }
 
@@ -35,7 +35,7 @@ namespace IngressoFacil.Catalog.API.Builders {
             }
 
             if (date < DateOnly.FromDateTime(DateTime.Today)) {
-                _result.WithError(new SessionDateBeforeTodayError());
+                _result.WithError(new SessionDateBeforeTodayError(date));
                 return this;
             }
 

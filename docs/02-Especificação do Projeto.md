@@ -272,72 +272,119 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 Para priorizar os requisitos, foi utilizado  a técnica de Escala de três Níveis, para essa técnica foi definido dois aspectos principais: importância e urgência.
 Assim, forma-se um quadrante, que é usado para obter o nível de prioridade do requisito, como mostrado na figura a seguir:
 
+![tabela-prioridade-requisitos](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t6-ingresso-facil/assets/82043220/053593fb-19ec-48cb-8a3a-71aeab08be48)
+
 ### Requisitos Funcionais
 
 <table>
   <tr>
-    <td align="center" width="80">ID</td>
+    <td align="center" width="100">ID</td>
     <td align="center" width="800">Descrição do Requisito</td>
     <td align="center" width="100">Prioridade</td>
   </tr>
   <tr>
-  <td align="center">RF-001</td>
-    <td align="left">O Sistema deve permitir que o usuário crie uma conta.</td>
+    <td align="center">RF-001</td>
+    <td align="left">O Usuário deve poder criar uma conta na plataforma.</td>
     <td align="center">ALTA</td>
   </tr>
-    <tr>
+  <tr>
     <td align="center">RF-002</td>
-    <td align="left">O Sistema deve permitir que o usuário faça login em uma conta já cadastrada.</td>
-    <td align="center">ALTA</td>
+    <td align="left">O Sistema deve enviar um email de confirmação para confirmar conta após a criação.</td>
+    <td align="center">MÉDIA</td>
   </tr>
-    <tr>
+  <tr>
     <td align="center">RF-003</td>
-    <td align="left">O Sistema deve permitir que o usuário recupere a senha de sua conta.</td>
-    <td align="center">MEDIA</td>
+    <td align="left">O Sistema deve gerar um token de validação para o usuário se manter conectado no sistema.</td>
+    <td align="center">ALTA</td>
   </tr>
-    <tr>
+  <tr>
     <td align="center">RF-004</td>
-    <td align="left">O Sistema deve listar todos os filmes em cartaz no cinema.</td>
+    <td align="left">O Usuário deve poder recuperar sua senha através de uma validação de email.</td>
     <td align="center">ALTA</td>
   </tr>
-    <tr>
+  <tr>
     <td align="center">RF-005</td>
-    <td align="left">O Sistema deve informar os horários dos filmes.</td>
+    <td align="left">O Sistema deve validar o token do usuário antes de permitir a entrada no sistema.</td>
     <td align="center">ALTA</td>
   </tr>
-    <tr>
+  <tr>
     <td align="center">RF-006</td>
-    <td align="left">O Sistema deve informar a disponibilidade de um filme.</td>
+    <td align="left">O Usuário deve poder sair da sua conta.</td>
     <td align="center">ALTA</td>
   </tr>
-    <tr>
+  <tr>
     <td align="center">RF-007</td>
-    <td align="left">O Sistema deve permitir que o usuário escolha quais assentos reservar durante a compra dos ingressos.</td>
+    <td align="left">O Usuário deve poder visualizar os filmes em cartaz.</td>
     <td align="center">ALTA</td>
   </tr>
-    <tr>
+  <tr>
     <td align="center">RF-008</td>
-    <td align="left">O Sistema deve permitir que o usuário desista da compra dos ingressos 1 hora antes do filme começar.</td>
-    <td align="center">ALTA</td>
+    <td align="left">O Usuário deve poder filtrar os filmes por categoria.</td>
+    <td align="center">MÉDIA</td>
   </tr>
-    <tr>
+  <tr>
     <td align="center">RF-009</td>
-    <td align="left">O Sistema deve permitir que o usuário escolha em qual sala do cinema deseja ver o filme.</td>
-    <td align="center">MEDIA</td>
+    <td align="left">O Sistema deve listar os filmes sem disponibilidade como Indisponíveis.</td>
+    <td align="center">MÉDIA</td>
   </tr>
-    <tr>
+  <tr>
     <td align="center">RF-010</td>
-    <td align="left">O Sistema deve permitir que o usuário imprima os ingressos.  </td>
-    <td align="center">MEDIA</td>
+    <td align="left">O Usuário deve poder visualizar as sessões disponíveis para um filme e seus horários.</td>
+    <td align="center">ALTA</td>
   </tr>
   <tr>
     <td align="center">RF-011</td>
-    <td align="left">O Sistema deve notificar o usuário quando o tempo para reembolso de ingressos se esgotar.  </td>
-    <td align="center">MEDIA</td>
+    <td align="left">O Usuário deve poder escolher a sessão do filmes que deseja assistir.</td>
+    <td align="center">ALTA</td>
   </tr>
   <tr>
     <td align="center">RF-012</td>
-    <td align="left">O Sistema deve informar quais os cinemas mais próximos ao usuário possuem salas com exibição do filme escolhido.  </td>
+    <td align="left">O Usuário deve poder escolher os assentos na sessão do filmes que deseja assistir.</td>
+    <td align="center">ALTA</td>
+  </tr>
+  <tr>
+    <td align="center">RF-013</td>
+    <td align="left">O Sistema deve marcar como ocupado os assentos escolhidos pelo usuário.</td>
+    <td align="center">ALTA</td>
+  </tr>
+  <tr>
+    <td align="center">RF-014</td>
+    <td align="left">O Usuário deve poder comprar os ingressos para o filme que deseja assistir.</td>
+    <td align="center">ALTA</td>
+  </tr>
+  <tr>
+    <td align="center">RF-015</td>
+    <td align="left">O Sistema deve notificar o usuário após a compra de um ingresso.</td>
+    <td align="center">MÉDIA</td>
+  </tr>
+  <tr>
+    <td align="center">RF-016</td>
+    <td align="left">O Usuário deve poder imprimir os ingressos comprados.</td>
+    <td align="center">MÉDIA</td>
+  </tr>
+  <tr>
+    <td align="center">RF-017</td>
+    <td align="left">O Usuário deve poder cancelar a compra de ingressos.</td>
+    <td align="center">ALTA</td>
+  </tr>
+  <tr>
+    <td align="center">RF-018</td>
+    <td align="left">O Sistema deve liberar os assentos de um filme caso o usuário cancele a compra dos ingressos.</td>
+    <td align="center">ALTA</td>
+  </tr>
+  <tr>
+    <td align="center">RF-019</td>
+    <td align="left">O Sistema deve cancelar a operação de compra de ingressos caso o usuário esteja inativo e não tenha finalizado o pagamento.</td>
+    <td align="center">MÉDIA</td>
+  </tr>
+  <tr>
+    <td align="center">RF-020</td>
+    <td align="left">O Usuário deve poder visualizar todos os ingressos comprados.</td>
+    <td align="center">ALTA</td>
+  </tr>
+  <tr>
+    <td align="center">RF-021</td>
+    <td align="left">O Usuário deve poder editar informações básicas do perfil.</td>
     <td align="center">ALTA</td>
   </tr>
 </table>
@@ -352,45 +399,43 @@ Assim, forma-se um quadrante, que é usado para obter o nível de prioridade do 
   </tr>
   <tr>
     <td align="center">RNF-001</td>
-    <td align="left">O Sistema deve notificar o usuário 30 min antes de seu filme começar.</td>
+    <td align="left">O Sistema não deve permitir senhas que não atendam o padrão de complexidade:<br><strong>min. 8 caracteres, 1 letra, 1 número, 1 símbolo entre: @!$ , 1 maiúscula, 1 mínuscula.</strong></td>
     <td align="center">ALTA</td>
   </tr>
   <tr>
     <td align="center">RNF-002</td>
-    <td align="left">O Sistema deve listar separadamente filmes sem disponibilidade.</td>
+    <td align="left">O Sistema não deve permitir que o usuário altere a senha para a senha atual durante a recuperação de senha.</td>
     <td align="center">ALTA</td>
   </tr>
   <tr>
     <td align="center">RNF-003</td>
-    <td align="left">O Sistema deve implementar um sistema de fila para a 
-escolha dos assentos, não permitindo mais usuários do que 
-assentos disponíveis.
-</td>
+    <td align="left">O Token de validação deve expirar em 8 horas.</td>
     <td align="center">ALTA</td>
   </tr>
   <tr>
     <td align="center">RNF-004</td>
-    <td align="left">O Sistema deve escalar horizontalmente caso necessário.</td>
+    <td align="left">O Email de recuperação de senha deve expirar em 5 min.</td>
     <td align="center">ALTA</td>
   </tr>
   <tr>
     <td align="center">RNF-005</td>
-    <td align="left">O Sistema deve liberar os assentos caso um usuário desista 
-de seu ingresso.</td>
+    <td align="left">O Sistema não deve permitir que o usuário acesse filmes indisponíveis.</td>
     <td align="center">ALTA</td>
   </tr>
   <tr>
     <td align="center">RNF-006</td>
-    <td align="left">O Sistema deve reservar os assentos temporariamente por 5 
-min após a escolha dos assentos pelo usuário, liberando caso 
-não seja efetuada a compra dos ingressos.</td>
+    <td align="left">O Sistema não deve permitir que o usuário escolha assetos já ocupados.</td>
     <td align="center">ALTA</td>
   </tr>
   <tr>
     <td align="center">RNF-007</td>
-    <td align="left">O Sistema deve sugerir salas alternativas caso não haja 
-disponibilidade na sala atual.</td>
+    <td align="left">O Sistema não deve permitir que o usuário cancele a compra de um ingresso com menos de 1 hora para começar o filme.</td>
     <td align="center">ALTA</td>
+  </tr>
+  <tr>
+    <td align="center">RNF-008</td>
+    <td align="left">O Tempo de compra de ingresso não pode passar de 10 min.</td>
+    <td align="center">MÉDIA</td>
   </tr>
 </table>
 
@@ -398,18 +443,27 @@ disponibilidade na sala atual.</td>
 
 O projeto está restrito pelos itens apresentados na tabela a seguir.
 
-|ID| Restrição                                             |
-|--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| O projeto deverá ser feito apenas por integrantes do grupo |
+<table>
+  <tr>
+    <td align="center" width="100"><strong>ID</strong></td>
+    <td align="center" width="900"><strong>Restrição</strong></td> 
+  </tr>
+  <tr>
+    <td align="center">001</td>
+    <td>O projeto deverá ser entregue até o final do semestre.</td>
+  </tr>
+  <tr>
+    <td align="center">002</td>
+    <td>O projeto deverá ser feito apenas por integrantes do grupo.</td>
+  </tr>
+</table>
 
 
 ## Diagrama de Casos de Uso
-<table>
-  <tr>
-    <td width="700" align="center" rowspan="3"><img alt="Diagrama Caso de uso" src="https://github.com/brunosellas/pmv-ads-2023-2-e4-proj-infra-t6-ingresso-facil/assets/102563767/1e8ea2b7-e62d-49b9-b64a-c4a561ba9012"></td>
 
-</table>
+O diagrama de caso de uso é uma poderosa ferramenta de modelagem utilizada na engenharia de software para representar visualmente como um sistema interage com seus atores externos, ou seja, como ele atende às necessidades dos usuários, clientes, sistemas externos e outros elementos que interagem com ele. Abaixo está o diagrama de caso de uso para o sistema proposto:
+
+![Diagrama de caso de uso](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t6-ingresso-facil/assets/82043220/0b65ed28-bac6-4cf4-88e1-09a24437429d)
 
 # Matriz de Rastreabilidade
 

@@ -51,7 +51,7 @@ namespace IngressoFacil.Catalog.API.Repositories {
 
                 if (await _context.Sessions
                         .AnyAsync(s => s.Id == session.Id)) {
-                    return Result.Fail(new SessionAlreadyExistsError());
+                    return Result.Fail(new SessionAlreadyExistsError(session.Id));
                 }
 
                 await _context.Sessions.AddAsync(session);
@@ -60,6 +60,30 @@ namespace IngressoFacil.Catalog.API.Repositories {
                 return Result.Ok();
 
             } catch(Exception exc) {
+                return Result.Fail(exc.Message);
+            }
+        }
+
+        public async Task<Result> Update(Session session)
+        {
+
+            try
+            {
+
+                if (!(await _context.Sessions
+                        .AnyAsync(s => s.Id == session.Id)))
+                {
+                    return Result.Fail(new SessionNotFoundError());
+                }
+
+                _context.Sessions.Update(session);
+                await _context.SaveChangesAsync();
+
+                return Result.Ok();
+
+            }
+            catch (Exception exc)
+            {
                 return Result.Fail(exc.Message);
             }
         }

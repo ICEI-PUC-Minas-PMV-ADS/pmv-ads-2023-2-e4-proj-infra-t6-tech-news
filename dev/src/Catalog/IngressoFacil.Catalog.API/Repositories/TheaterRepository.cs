@@ -38,7 +38,7 @@ namespace IngressoFacil.Catalog.API.Repositories {
 
                 if (await _context.Theaters
                     .AnyAsync(t => t.Id == theater.Id || t.Number == theater.Number)) {
-                    return Result.Fail(new TheaterAlreadyExistsError());
+                    return Result.Fail(new TheaterAlreadyExistsError(theater.Number));
                 }
 
                 await _context.Theaters.AddAsync(theater);

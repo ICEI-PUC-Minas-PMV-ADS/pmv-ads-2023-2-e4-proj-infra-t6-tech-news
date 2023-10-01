@@ -51,7 +51,7 @@ namespace IngressoFacil.Catalog.API.Repositories {
 
                 if (await _context.Categories
                     .AnyAsync(other => other.Id == category.Id || other.Name == category.Name)) {
-                    return Result.Fail(new MovieCategoryAlreadyExistsError());
+                    return Result.Fail(new MovieCategoryAlreadyExistsError(category.Name));
                 }
 
                 await _context.Categories.AddAsync(category);
