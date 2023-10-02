@@ -8,7 +8,10 @@ A seguir está a arquitetura distribuída da solução, com os serviços e compo
 
 ## Diagrama de Classes
 
-O diagrama de classes ilustra graficamente como será a estrutura do software, e como cada uma das classes da sua estrutura estarão interligadas. Essas classes servem de modelo para materializar os objetos que executarão na memória.
+O diagrama de classe é uma representação visual da estrutura e das relações entre as classes de um sistema orientado a objetos. Ele fornece uma visão abstrata dos objetos que compõem o sistema, bem como seus atributos e métodos.
+
+A figura abaixo ilustra o diagrama de classes para o sistema proposto.
+![Blank diagram](https://github.com/brunosellas/pmv-ads-2023-2-e4-proj-infra-t6-ingresso-facil/assets/102563767/32e21366-5016-4b54-97a6-13ae4c09b412)
 
 As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Classes”.
 
