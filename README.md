@@ -1,34 +1,28 @@
-![ShapeUp-logomarca](https://github.com/brunosellas/pmv-ads-2023-2-e4-proj-infra-t6-ingresso-facil/assets/102563767/5077ab30-7071-4d28-977f-7aa1d1860187)
+# Tech News
 
+`TECNOLOGIA EM ANÁLISE E DESENVOLVIMENTO DE SISTEMAS`
 
+`Eixo 4 - Projeto: Desenvolvimento de uma Aplicação Distribuída`
 
-<h6 align="right">Criado em 30 de Agosto de 2023<br><a href="https://www.pucminas.br/PucVirtual/Paginas/default.aspx">PUC Minas Virtual</a></h6>
+`Turma 06 - 2023/2`
 
-`Análise e Desenvolvimento de Sistemas`
+"Este projeto está focado na criação de uma aplicação que centraliza e disponibiliza as últimas notícias no mundo da tecnologia. Esta plataforma permite que os usuários se cadastrem e compartilhem links de notícias consideradas relevantes, abrangendo uma variedade de tópicos como novos avanços, inovações disruptivas, movimentações no mercado de tecnologia, entre outros temas relacionados ao universo tecnológico.
 
-`Projeto: Análise e Projeto de Sistemas de Software`
-
-`Quarto Semestre`
-
-## Descrição
-
+O principal propósito é unificar informações dispersas pela internet, proporcionando uma experiência simplificada para entusiastas e profissionais interessados em acompanhar as mais recentes novidades nesse campo. Ao facilitar o acesso a notícias atualizadas, o aplicativo visa tornar mais prático e ágil o processo de manter-se informado para aqueles que têm interesse em tecnologia."
 ## Integrantes
 
-| [<img src="https://avatars.githubusercontent.com/u/82043220?v=4" width=115><br><sub>Raul Shinaede</sub>](https://github.com/RaulShinaede) | [<img src="https://avatars.githubusercontent.com/u/102563767?v=4" width=115><br><sub>Bruno Sellas</sub>](https://github.com/brunosellas) | [<img src="https://github.com/jramiresbrito.png" width=115><br><sub>João Victor Ramires Guimarães Brito</sub>](https://github.com/jramiresbrito) | [<img src="https://github.com/rafaeldrubio.png" width=115><br><sub>Rafael Rubio</sub>](https://github.com/rafaeldrubio) | [<img src="https://github.com/TulioFS.png" width=115><br><sub>Marco Túlio Félix Santiago</sub>](https://github.com/TulioFS) | [<img src="https://github.com/lucasdamasceno96.png" width=115><br><sub>Lucas Damasceno</sub>](https://github.com/lucasdamasceno96)
-| :---: | :---: | :---: | :---: | :---: | :---: |
+* <a href="https://github.com/jramiresbrito"> João Victor Ramires Guimarães Brito </a>
+* <a href="https://github.com/lucasdamasceno96">  Lucas Damasceno Pinto </a>
+* <a href="https://github.com/rafaeldrubio"> Rafael Rubio </a>
+
 
 ## Orientador
 
-| [<img src="https://github.com/pedrofao.png" width=115><br><sub>Pedro Felipe Alves de Oliveira</sub>](https://github.com/pedrofao) |
-| :---: |
+* Pedro Felipe Alves de Oliveira
 
 ## Instruções de utilização
 
-// TODO:
-
-- ✅ Como baixar
-- 📦 Como compilar
-- 🚀 Como executar 
+Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
 
 # Documentação
 
@@ -55,3 +49,4 @@
 # Apresentação
 
 <li><a href="presentation/README.md"> Apresentação da solução</a></li>
+
