@@ -1,583 +1,153 @@
 # Especificações do Projeto
 
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
+A definição exata do problema e os pontos mais relevantes a serem tratados neste projeto foi consolidada com a participação dos usuários em um trabalho de imersão, feito pelos membros da equipe a partir da observação dos usuários em seu local natural e por meio de entrevistas. Os detalhes levantados nesse processo foram consolidados na forma de personas e histórias de usuários
+<p align = "center">Quadro 1 - Persona Helen Silva </p>
 
 ## Personas
-Seguem demonstradas por meio dos quadros apresentados o levantamento feito das personas e suas características durante o processo de entendimento do problema:
+|    Helen Silva |                                    |                |
+|--------------------|------------------------------------|----------------------------------------|
+|![wuk-unsplash](https://img.freepik.com/vetores-premium/desenho-de-mulher-jovem_24640-35051.jpg)|**Idade:** 34 anos - **Ocupação:** Tech recruiter, Formada em gestão e recursos humanos Helen é responsável por buscar os profissionais mais alinhados às necessidades da empresa que trabalha. |**Aplicativos:** Instagram,Facebook,Whatsapp.
+|**Motivações:** Helen gosta de sua profissão e espera contratar pessoas que sejam adequadas para cada tipo de vaga, por isso, o mesmo está sempre em busca de mais conhecimento sobre o estado atual do mercado tech. |**Frustrações:** Por trabalhar com o recrutamento de pessoas, Helen se sente desmotivada por as vezes por nao entender termos tech e tendencias do mercado..|**Hobbies:** Helen, está sempre em busca de  aperfeiçoamento para saber lidar com pessoas, em seu tempo livre, busca leituras e aulas de comportamento humano, e aprendizado |
+<p align = "center">Fonte: Elaborado pelos autores</p>
 
-<table>
-  <tr>
-   <td width="1000" colspan="5" align="center">Mark Khalil, 36 anos.</td>
-  </tr>
-  <tr>
-   <td width="200" align="center" height="200" rowspan="3"><img alt="Persona 01" src="https://github.com/RaulShinaede/proj-ingresso-e4-temp/assets/102563767/338cfdd8-6984-484d-8c96-1e9fd4a032fd"></td>
-   <td width="150" align="center">Ocupação</td>
-   <td colspan="3">Designer</td>
-   <tr>
-    <td width="150" align="center">Aplicativos</td>
-    <td width="210" align="center">Motivações</td>
-    <td width="210" align="center">Frustrações</td>
-    <td width="240" align="center">Hobbies, História</td>
-   </tr>
-  </tr>
-  <tr>
-   <td>
-    ●	Figma<br>
-    ●	Whatsapp<br>
-    ●	PhotoShop<br>
-    ●	Whatsapp<br>
-    ●	Ilustrator<br> 
-   </td>
-   <td>
-    ●	Ter alguma atividade em comum com sua esposa.<br>
-     <br>
-    ●	Se divertir.<br>
-   </td>
-   <td>
-    ●	Estar sempre muito ligado ao trabalho.<br>
-     <br>
-    ●	Não ter tempo de qualidade com sua esposa.<br>
-   </td>
-   <td>
-    ●	Não possui Hobbies<br>
-   </td>
-  </tr>
- </table>
- <table>
-  <tr>
-   <td width="1000" colspan="5" align="center">Paulo Ribeiro, 34 anos.</td>
-  </tr>
-  <tr>
-   <td width="200" align="center" height="200" rowspan="3"><img alt="Persona 02" src="https://github.com/RaulShinaede/proj-ingresso-e4-temp/assets/102563767/71ca936c-9a89-426a-9e45-b1564ed39b13"></td>
-   <td width="150" align="center">Ocupação</td>
-   <td colspan="3">Empresário</td>
-   <tr>
-    <td width="150" align="center">Aplicativos</td>
-    <td width="210" align="center">Motivações</td>
-    <td width="210" align="center">Frustrações</td>
-    <td width="240" align="center">Hobbies, História</td>
-   </tr>
-  </tr>
-  <tr>
-   <td>
-    ●	Whatsapp<br>
-    ●	Outlook<br>
-    ●	Receita<br>
-    ●	Banco Digital<br> 
-    ●	Calculadora<br>
-    ●	TikTok<br> 
-   </td>
-   <td>
-    ●	Se divertir com sua filha.<br>
-     <br>
-    ●	Se desestressar da rotina de trabalho .<br>
-   </td>
-   <td>
-    ●	Falta de tempo com a familia.<br>
-     <br>
-    ●	Viver muito preso ao trabalho e a rotina.<br>
-   </td>
-   <td>
-    ●	Ir ao cinema<br>
-   </td>
-  </tr>
- </table>
- <table>
-  <tr>
-   <td width="1000" colspan="5" align="center">Maria Soares, 40 anos.</td>
-  </tr>
-  <tr>
-   <td width="200" align="center" height="200" rowspan="3"><img alt="Persona 03" src="https://github.com/RaulShinaede/proj-ingresso-e4-temp/assets/102563767/a6c72185-05e2-462a-9d04-2c6bbc244100"></td>
-   <td width="150" align="center">Ocupação</td>
-   <td colspan="3">Cinéfila</td>
-   <tr>
-    <td width="150" align="center">Aplicativos</td>
-    <td width="210" align="center">Motivações</td>
-    <td width="210" align="center">Frustrações</td>
-    <td width="240" align="center">Hobbies, História</td>
-   </tr>
-  </tr>
-  <tr>
-   <td>
-    ●	Facebook<br>
-    ●	Whatsapp<br>
-    ●	Amazon Prime<br>
-    ● Netflix<br>
-    ●	Youtube<br> 
-    ●	Hbo<br>
-   </td>
-   <td>
-    ●	Assistir todos os filmes que gosta.<br>
-     <br>
-    ●	Encontrar promoções e facilidade para ver seus filmes favoritos.<br>
-   </td>
-   <td>
-    ●	Sempre ter que lidar com as dificuldades de comprar ingressos online.<br>
-     <br>
-    ●	Sentir falta de otimização dos aplicativos de ingresso disponíveis.<br>
-   </td>
-   <td>
-    ●	Análisar os filmes assistidos e postar em seu canal no youtube.<br>
-   </td>
-  </tr>
- </table>
- <table>
-  <tr>
-   <td width="1000" colspan="5" align="center">Isabela Campos, 29 anos.</td>
-  </tr>
-  <tr>
-   <td width="200" align="center" height="200" rowspan="3"><img alt="Persona 04" src="https://github.com/RaulShinaede/proj-ingresso-e4-temp/assets/102563767/9cc5924b-117a-402c-bfee-a2f50a515846"></td>
-   <td width="150" align="center">Ocupação</td>
-   <td colspan="3">Estilista</td>
-   <tr>
-    <td width="150" align="center">Aplicativos</td>
-    <td width="210" align="center">Motivações</td>
-    <td width="210" align="center">Frustrações</td>
-    <td width="240" align="center">Hobbies, História</td>
-   </tr>
-  </tr>
-  <tr>
-   <td>
-    ●	Photoshop<br>
-    ●	Coreo Draw<br>
-    ●	Whatsapp<br>
-    ●	Instagram<br> 
-   </td>
-   <td>
-    ●	Se inspirar para criar suas roupas por meio do cinema.<br>
-     <br>
-    ●	Crescer seu negócio e aumentar sua produção de roupas.<br>
-   </td>
-   <td>
-    ●	Muitas vezes precisar comprar seus ingressos na bilheteria física do cinema.<br>
-     <br>
-    ●	Perder sessões por lentidões de sitemas online e de totem dos cinemas.<br>
-   </td>
-   <td>
-    ● Viajar<br>
-   </td>
-  </tr>
- </table>
- <table>
-  <tr>
-   <td width="1000" colspan="5" align="center">Simone Silva, 45 anos.</td>
-  </tr>
-  <tr>
-   <td width="200" align="center" height="200" rowspan="3"><img alt="Persona 05" src="https://github.com/RaulShinaede/proj-ingresso-e4-temp/assets/102563767/bff6fe67-8bcd-42f4-9329-907c574e4056"></td>
-   <td width="150" align="center">Ocupação</td>
-   <td colspan="3">Dona de Casa</td>
-   <tr>
-    <td width="150" align="center">Aplicativos</td>
-    <td width="210" align="center">Motivações</td>
-    <td width="210" align="center">Frustrações</td>
-    <td width="240" align="center">Hobbies, História</td>
-   </tr>
-  </tr>
-  <tr>
-   <td>
-    ●	Youtube<br>
-    ●	Netflix<br>
-    ●	TikTok<br>
-    ●	Google Agenda<br>
-   </td>
-   <td>
-    ●	Se divertir com a família.<br>
-     <br>
-    ● Ensinar aos filhos a cultura do cinema.<br>
-   </td>
-   <td>
-    ●	Perder os horários das sessões por não saber onde assistir os filmes.<br>
-     <br>
-    ●	Não conseguir encontrar filmes dublados para seus filhos.<br>
-   </td>
-   <td>
-    ●	Desfrutar da companhia dos filhos<br>
-   </td>
-  </tr>
- </table>
+<br>
+<p align = "center">Quadro 2  - Persona Sidney Gomes</p>
+
+|    SIDNEY GOMES |                                    |                |
+|--------------------|------------------------------------|----------------------------------------|
+|![jonas-kakaroto-Fs8ZFfVh-cg-unsplash](https://img.freepik.com/vetores-premium/homem-sentado-em-uma-cadeira-de-rodas-em-um-fundo-branco_165429-834.jpg)|**Idade:** 40 anos -**Ocupação:** Tech Lead Responsável por gerenciar um time agil especializado em cloud computing, atuando como scrum master e teach lead atendendo as demandas da empresa. |**Aplicativos:** Teams, Discord, Whatsapp.
+|**Motivações:** Sidney sempre gostou de Trabalhar duro e coordenar a execução dos processos.|**Frustrações:** Falta de tempo para se manter atualizado das inovações tech. |**Hobbies:** Participar de eventos sobre tecnologia em cloud; 
+<p align = "center">Fonte: Elaborado pelos autores</p>
+
+<br>
+<p align = "center">Quadro 3  - Persona Gabriela de Jesus</p>
+
+|     GABRIELA DE JESUS |                                    |                |
+|--------------------|------------------------------------|----------------------------------------|
+|![cunsplash](https://img.freepik.com/vetores-premium/desenho-de-mulher-jovem_24640-35064.jpg)|**Idade:** 28 anos -**Ocupação:** Financeiro. Formada em Administração de Empresas, Especialista FinOps, Gabriela é responsável pela preparação do colaborador, para o desempenho de atribuições relativas às competências e atribuições do cargo que irá atuar, buscando otimizar recursos e pensamento economico. |**Aplicativos:** LinkedIn , Softwares de análise comportamentais ,Learning Experience Platform: SkillHub..
+|**Motivações:** Gabriela gosta de trabalhar se envolvendo com pessoas, e quer se destacar em ser uma pessoa inovadora buscando produção e qualidade |**Frustrações:** Falta de interesse das pessoas em treinamentos focado em desenvolvimento pessoal e atualidades do mercado.  |**Hobbies:** Passear com a familía e amigos| 
+<p align = "center">Fonte: Elaborado pelos autores</p>
+
+<br>
+<p align = "center">Quadro 5  - Persona Pedro Borges</p>
+
+|     PEDRO BORGES|                                    |                |
+|--------------------|------------------------------------|----------------------------------------|
+|![cunsplash](https://img.freepik.com/vetores-gratis/menino-adolescente-com-cara-de-sorriso_1308-131110.jpg)|**Idade:** 22 anos -**Ocupação:** Desenvolvedor Junior. Estudante de Analise e densenvolvimento de Sistemas, Pedro é entusiasta de novas tecnologias no mundo da programação e esta sempre em busca de otimizar os processos legados em tecnologias atualizadas. |**Aplicativos:** LinkedIn , Softwares de programação,Reddit e telegram.
+|**Motivações:** Pedro gosta de estar por dentro do mundo da tecnologia e ensinar aos proximos sobre o mercado tech.|**Frustrações:** Falta de conteudo gratis disponivel na web.  |**Hobbies:** Colaborar em projetos open source| 
+<p align = "center">Fonte: Elaborado pelos autores</p>
+
+
+
+
+<br>
+
 
 
 ## Histórias de Usuários
 
-A fim de buscar mais informações sobre os motivos e causas de uso dessas pessoas a plataforma a ser desenvolvida, foram realizadas perguntas por meio de entrevistas, tendo resultados demonstrados no quadro apresentado:
+Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
-<table>
-  <tr>
-    <td width="200" align="center"><strong>EU COMO... <code>PERSONA</code></strong></td>
-    <td width="400" align="center"><strong>QUERO/PRECISO ... <code>FUNCIONALIDADE</code></strong></td>
-    <td width="300" align="center"><strong>PARA ... <code>MOTIVO/VALOR</code></strong></td>
-  </tr>
-      <tr>
-        <td>Mark Khalil</td>
-        <td>Passar mais tempo de qualidade com minha esposa.</td>
-        <td>Fortificar nossa relação.</td>
-      </tr>
-      <tr>
-        <td>Paulo Ribeiro</td>
-        <td>Passar mais tempo de qualidade com minha filha.</td>
-        <td>aproveitar mais a vida e me desligar mais do trabalho.</td>
-      </tr>
-       <tr>
-        <td>Maria Soares</td>
-        <td>Acompanhar todos os lancamentos do cinema.</td>
-        <td>Aumentar as visualizações do meu canal no youtube.</td>
-      </tr>
-       <tr>
-        <td>Isabela Campos</td>
-        <td>Buscar inspirações para melhorar minhas criações.</td>
-        <td>Crescer minha marca e minha carteira de clientes.</td>
-      </tr>
-       <tr>
-        <td>Simone Silva</td>
-        <td>Passar tempo com meus filhos.</td>
-        <td>Cria-los com conteúdo e base de cultura.</td>
-      </tr>
-</table>
+|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
+|-----------------------|----------------------------------------------------|----------------------------------------|
+|Tech Recruiter |  Ler notícias e artigos educacionais sobre processos seletivos em big tech  | Expandir meu conhecimento sobre o mercado tecnologico |
+|Teach Lead  | Me atualizar em tempo real sobre cloud computing  | Compartilhar estratégias de inovação e ajudar meus colaboradores a tomar decisões rápidas e informadas. |
+|Gerente Financeiro |  Ver o que estão compartilhando sobre estrategia FinOps | Otimizar os recursos sem atrapalhar a entrega do produto|
+|Dev. Junior  |  Estar informada sobre universo tecnologico |Me manter atualizado para tomar decisões estratégicas para minha empresa e carreira  |
+
+
 
 ## Modelagem do Processo de Negócio 
 
 ### Análise da Situação Atual
 
-Percebemos que os processos atuais para a realização de compras de ingressos para filmes tem se tornado a cada dia mais cansativos e intediantes. A lentidão em suas imensas filas de bilheterias, dificuldades para a escolha de um lugar mais visível durante o filme e sistemas sobrecarregados devido ao aumento gradativo da opção de compra de ingressos online, foram os fatores que nos levaram a criação deste projeto. 
+No cenário atual, os usuários interessados em acompanhar as últimas notícias sobre tecnologia precisam consultar diversas fontes, como sites de notícias especializados, redes sociais, blogs e outras plataformas de mídia, o que pode ser um processo demorado e confuso. Adicionalmente, essas fontes podem apresentar viés ou estar desatualizadas, resultando em informações imprecisas que influenciam negativamente na tomada de decisões no universo tecnológico. Por isso, há uma clara necessidade de um aplicativo que centralize todas as informações relevantes sobre tecnologia em um único local
 
 ### Descrição Geral da Proposta
 
-Temos como objetivo tornar este processo de ingresso o mais simples, prático, ágil e seguro possível. Removendo assim, este duradouro e cansativo processo de compras para uma forma mais objetiva. 
+- **Usuários Finais:** Os próprios usuários do aplicativo.
+- **Desenvolvedores e Criadores de Conteúdo:** Responsáveis pela atualização e produção de conteúdo relevante.
+- **Patrocinadores e Investidores:** Aqueles que financiam ou apoiam o aplicativo.
+- **Parceiros de Mídia e Fontes de Informação:** Portais de notícias, empresas de tecnologia e fontes de informação relevantes.
 
-Junto a este objetivo, temos como possíveis melhorias, a visualização de traillers e sinopses dos filmes estampados em cartaz, para facilitar a escolha do usuário, tornando o processo mais imersivo dentro do seu próprio lar.
+Esses grupos representam os principais stakeholders interessados no aplicativo, cada um desempenhando um papel crucial em seu desenvolvimento, utilização e sucesso no mercado.
 
-### Processo – Compra de Ingresso - As Is
-<table>
-  <tr>
-    <td width="700" align="center" rowspan="3"><img alt="Modelagem de Processo" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t6-ingresso-facil/blob/89a9549c19520bd30cb647b440382ed75349b896/docs/img/Modelo%20BPMN%20-%20Compra%20de%20Ingresso.png"></td>
-  </tr>
-</table>
 
-### Processo – Possíveis Melhorias - To Be 
-<table>
-  <tr>
-    <td width="700" align="center" rowspan="3"><img alt="Modelagem de Processo" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t6-ingresso-facil/blob/f688a0769f574a2077fa8cc9ee86b634364e54ab/docs/img/Modelo%20BPMN%20-%20To%20Be.png"></td>
-  </tr>
-</table>
 
-## Relação Potencialidades e Oportunidades de Melhoria para o Processo de Negócio
-No processo As Is podemos ver um padrão mais simples e básico mediante a necessidade atual dos usuários, trazemos junto do processo TO BE, uma possível melhoria que auxiliaria para os futuros usuários terem bases de filmes com avaliações baseadas na experiência vivida pelos antigos usuários. Teriamos como base avalições dos filmes para que os usuários pudessem retirar suas dúvidas quantos as qualidades dos filmes.
+
+### Processo 1 – LOGIN
+
+
+![Processo 1](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e3-proj-mov-t3-grupo2/blob/main/docs/img/diagrama_login.jpg)
+
+### Processo 2 – CADASTRO E DISTRIBUIÇÃO DE NOTÍCIAS
+
+
+![Processo 2](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e3-proj-mov-t3-grupo2/blob/main/docs/img/diagrama_cadastro.jpg)
 
 ## Indicadores de Desempenho
-![Indicadores de desempenho ingresso fácil](https://github.com/brunosellas/pmv-ads-2023-2-e4-proj-infra-t6-ingresso-facil/assets/102563767/695116d6-4b03-4949-84d0-508429dbff7b)
+
+| # | Indicador | Objetivos | Descrição | Cálculo | Fonte | Perspectiva|  
+|---|-----------|-----------|-----------|---------|-------|------------|
+| 1 | Downloads | Acompanhar o crescimento do aplicativo | Avaliar a taxa de downloads realizados na loja| nº de downloads / período | Playstore | Crescimento e Aprendizado |
+| 2 | Usuários Cadastrados | Mensurar a quantidade de cadastros efetuados no aplicativo | Avaliar a taxa de cadastros realizados no aplicativo após o download | nº de cadastros / período | Banco de Dados| Crescimento e Aprendizado |
+| 3 | Engajamento | Avaliar o sucesso do aplicativo | O engajamento medirá o tempo em que as pessoas permanecem utilizando o aplicativo e quantas vezes ele é aberto | Realizado pela ferramenta Google Mobile App Analytics | Google Mobile App Analytics | Crescimento e Aprendizado |
+| 4 | Avaliação | Acompanhar as opiniões de usuários | Analisar os comentários dos usuários | Análise direta da nota | Playstore | Crescimento e Apendizado | 
+| 5 | Desinstalação | Compreender as razões que levaram à desinstalação | Avaliar o que pode ser mudado para prevenir outras desinstalações do aplicativo | nº de desinstalações / período | Playstore | Processos Internos | 
 
 ## Requisitos
 
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
-Para priorizar os requisitos, foi utilizado  a técnica de Escala de três Níveis, para essa técnica foi definido dois aspectos principais: importância e urgência.
-Assim, forma-se um quadrante, que é usado para obter o nível de prioridade do requisito, como mostrado na figura a seguir:
-
-![tabela-prioridade-requisitos](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t6-ingresso-facil/assets/82043220/053593fb-19ec-48cb-8a3a-71aeab08be48)
+As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto. 
 
 ### Requisitos Funcionais
 
-<table>
-  <tr>
-    <td align="center" width="100">ID</td>
-    <td align="center" width="800">Descrição do Requisito</td>
-    <td align="center" width="100">Prioridade</td>
-  </tr>
-  <tr>
-    <td align="center">RF-001</td>
-    <td align="left">O Usuário deve poder criar uma conta na plataforma.</td>
-    <td align="center">ALTA</td>
-  </tr>
-  <tr>
-    <td align="center">RF-002</td>
-    <td align="left">O Sistema deve enviar um email de confirmação para confirmar conta após a criação.</td>
-    <td align="center">MÉDIA</td>
-  </tr>
-  <tr>
-    <td align="center">RF-003</td>
-    <td align="left">O Sistema deve gerar um token de validação para o usuário se manter conectado no sistema.</td>
-    <td align="center">ALTA</td>
-  </tr>
-  <tr>
-    <td align="center">RF-004</td>
-    <td align="left">O Usuário deve poder recuperar sua senha através de uma validação de email.</td>
-    <td align="center">ALTA</td>
-  </tr>
-  <tr>
-    <td align="center">RF-005</td>
-    <td align="left">O Sistema deve validar o token do usuário antes de permitir a entrada no sistema.</td>
-    <td align="center">ALTA</td>
-  </tr>
-  <tr>
-    <td align="center">RF-006</td>
-    <td align="left">O Usuário deve poder sair da sua conta.</td>
-    <td align="center">ALTA</td>
-  </tr>
-  <tr>
-    <td align="center">RF-007</td>
-    <td align="left">O Usuário deve poder visualizar os filmes em cartaz.</td>
-    <td align="center">ALTA</td>
-  </tr>
-  <tr>
-    <td align="center">RF-008</td>
-    <td align="left">O Usuário deve poder filtrar os filmes por categoria.</td>
-    <td align="center">MÉDIA</td>
-  </tr>
-  <tr>
-    <td align="center">RF-009</td>
-    <td align="left">O Sistema deve listar os filmes sem disponibilidade como Indisponíveis.</td>
-    <td align="center">MÉDIA</td>
-  </tr>
-  <tr>
-    <td align="center">RF-010</td>
-    <td align="left">O Usuário deve poder visualizar as sessões disponíveis para um filme e seus horários.</td>
-    <td align="center">ALTA</td>
-  </tr>
-  <tr>
-    <td align="center">RF-011</td>
-    <td align="left">O Usuário deve poder escolher a sessão do filmes que deseja assistir.</td>
-    <td align="center">ALTA</td>
-  </tr>
-  <tr>
-    <td align="center">RF-012</td>
-    <td align="left">O Usuário deve poder escolher os assentos na sessão do filmes que deseja assistir.</td>
-    <td align="center">ALTA</td>
-  </tr>
-  <tr>
-    <td align="center">RF-013</td>
-    <td align="left">O Sistema deve marcar como ocupado os assentos escolhidos pelo usuário.</td>
-    <td align="center">ALTA</td>
-  </tr>
-  <tr>
-    <td align="center">RF-014</td>
-    <td align="left">O Usuário deve poder comprar os ingressos para o filme que deseja assistir.</td>
-    <td align="center">ALTA</td>
-  </tr>
-  <tr>
-    <td align="center">RF-015</td>
-    <td align="left">O Sistema deve notificar o usuário após a compra de um ingresso.</td>
-    <td align="center">MÉDIA</td>
-  </tr>
-  <tr>
-    <td align="center">RF-016</td>
-    <td align="left">O Usuário deve poder imprimir os ingressos comprados.</td>
-    <td align="center">MÉDIA</td>
-  </tr>
-  <tr>
-    <td align="center">RF-017</td>
-    <td align="left">O Usuário deve poder cancelar a compra de ingressos.</td>
-    <td align="center">ALTA</td>
-  </tr>
-  <tr>
-    <td align="center">RF-018</td>
-    <td align="left">O Sistema deve liberar os assentos de um filme caso o usuário cancele a compra dos ingressos.</td>
-    <td align="center">ALTA</td>
-  </tr>
-  <tr>
-    <td align="center">RF-019</td>
-    <td align="left">O Sistema deve cancelar a operação de compra de ingressos caso o usuário esteja inativo e não tenha finalizado o pagamento.</td>
-    <td align="center">MÉDIA</td>
-  </tr>
-  <tr>
-    <td align="center">RF-020</td>
-    <td align="left">O Usuário deve poder visualizar todos os ingressos comprados.</td>
-    <td align="center">ALTA</td>
-  </tr>
-  <tr>
-    <td align="center">RF-021</td>
-    <td align="left">O Usuário deve poder editar informações básicas do perfil.</td>
-    <td align="center">ALTA</td>
-  </tr>
-</table>
+|ID    | Descrição do Requisito  | Prioridade |
+|------|-----------------------------------------|----|
+|RF-001| O aplicativo deve permitir que o usuário se cadastre | ALTA | 
+|RF-002| O aplicativo deve permitir que o usuário realize o login | ALTA |
+|RF-003| O aplicativo deve permitir que o usuário visualize a lista de links com as notícias mais recentes | ALTA |
+|RF-004| O aplicativo deve permitir que o usuário cadastre uma nova notícia | ALTA |
+|RF-005| O aplicativo deve permitir que o usuário possa interagir curtindo uma notícia  | BAIXA |
+
 
 ### Requisitos não Funcionais
 
-<table>
-  <tr>
-    <td align="center" width="100">ID</td>
-    <td align="center" width="800">Descrição do Requisito</td>
-    <td align="center" width="100">Prioridade</td>
-  </tr>
-  <tr>
-    <td align="center">RNF-001</td>
-    <td align="left">O Sistema não deve permitir senhas que não atendam o padrão de complexidade:<br><strong>min. 8 caracteres, 1 letra, 1 número, 1 símbolo entre: @!$ , 1 maiúscula, 1 mínuscula.</strong></td>
-    <td align="center">ALTA</td>
-  </tr>
-  <tr>
-    <td align="center">RNF-002</td>
-    <td align="left">O Sistema não deve permitir que o usuário altere a senha para a senha atual durante a recuperação de senha.</td>
-    <td align="center">ALTA</td>
-  </tr>
-  <tr>
-    <td align="center">RNF-003</td>
-    <td align="left">O Token de validação deve expirar em 8 horas.</td>
-    <td align="center">ALTA</td>
-  </tr>
-  <tr>
-    <td align="center">RNF-004</td>
-    <td align="left">O Email de recuperação de senha deve expirar em 5 min.</td>
-    <td align="center">ALTA</td>
-  </tr>
-  <tr>
-    <td align="center">RNF-005</td>
-    <td align="left">O Sistema não deve permitir que o usuário acesse filmes indisponíveis.</td>
-    <td align="center">ALTA</td>
-  </tr>
-  <tr>
-    <td align="center">RNF-006</td>
-    <td align="left">O Sistema não deve permitir que o usuário escolha assetos já ocupados.</td>
-    <td align="center">ALTA</td>
-  </tr>
-  <tr>
-    <td align="center">RNF-007</td>
-    <td align="left">O Sistema não deve permitir que o usuário cancele a compra de um ingresso com menos de 1 hora para começar o filme.</td>
-    <td align="center">ALTA</td>
-  </tr>
-  <tr>
-    <td align="center">RNF-008</td>
-    <td align="left">O Tempo de compra de ingresso não pode passar de 10 min.</td>
-    <td align="center">MÉDIA</td>
-  </tr>
-</table>
+|ID     | Descrição do Requisito  |Prioridade |
+|-------|-------------------------|----|
+|RNF-001| Usabilidade: o aplicativo deve ter uma interface intuitiva, com botões bem definidos e fácil navegação| ALTA | 
+|RNF-002| Desempenho: o aplicativo deve ser rápido em todas as suas funcionalidades | ALTA | 
+|RNF-003| Compatibilidade: o aplicativo deve funcionar em diferentes dispositivos e plataformas |  ALTA | 
+|RNF-004| Responsividade: o aplicativo deve ser responsivo para rodar em dispositivos móveis |  ALTA | 
+|RNF-005| Segurança: os dados do usuário devem ser armazenados de forma segura e protegidos contra possíveis invasões ou vazamentos de informações.|  ALTA | 
+
 
 ## Restrições
 
 O projeto está restrito pelos itens apresentados na tabela a seguir.
 
-<table>
-  <tr>
-    <td align="center" width="100"><strong>ID</strong></td>
-    <td align="center" width="900"><strong>Restrição</strong></td> 
-  </tr>
-  <tr>
-    <td align="center">001</td>
-    <td>O projeto deverá ser entregue até o final do semestre.</td>
-  </tr>
-  <tr>
-    <td align="center">002</td>
-    <td>O projeto deverá ser feito apenas por integrantes do grupo.</td>
-  </tr>
-</table>
+|ID| Restrição                                             |
+|--|-------------------------------------------------------|
+|01| O projeto deverá ser entregue até o final do semestre |
+|02| Projeto teve ter web, mobile e backend      |
 
 
 ## Diagrama de Casos de Uso
 
-O diagrama de caso de uso é uma poderosa ferramenta de modelagem utilizada na engenharia de software para representar visualmente como um sistema interage com seus atores externos, ou seja, como ele atende às necessidades dos usuários, clientes, sistemas externos e outros elementos que interagem com ele. Abaixo está o diagrama de caso de uso para o sistema proposto:
+O diagrama de casos de uso é o próximo passo após a elicitação de requisitos, que utiliza um modelo gráfico e uma tabela com as descrições sucintas dos casos de uso e dos atores. Ele contempla a fronteira do sistema e o detalhamento dos requisitos funcionais com a indicação dos atores, casos de uso e seus relacionamentos. 
 
-![Diagrama de caso de uso](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t6-ingresso-facil/assets/82043220/f1e7fffc-e51c-4350-9a18-6fd9d8932990)
+![Diagrama 1](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e3-proj-mov-t3-grupo2/blob/main/docs/img/casos_de_uso.jpg)
 
 
 # Matriz de Rastreabilidade
 
-Nesta matriz, os requisitos funcionais (RF) estão listados na primeira parte, e os requisitos não funcionais (RNF) estão listados na segunda parte. A coluna "Requisito Associado" indica a associação entre os requisitos funcionais e não funcionais, quando aplicável. Por exemplo, os requisitos RNF-003, RNF-005 e RNF-006 estão associados ao requisito funcional RF-007, pois todos estão relacionados à escolha e gestão dos assentos durante a compra de ingressos.
+A matriz de rastreabilidade é uma ferramenta usada para facilitar a visualização dos relacionamento entre requisitos e outros artefatos ou objetos, permitindo a rastreabilidade entre os requisitos e os objetivos de negócio. 
 
-Isso permite rastrear como os requisitos funcionais e não funcionais estão relacionados e como eles se complementam no desenvolvimento do sistema.
+Com o objetivo de mapear e explicitar as dependências internas e externas do projeto, desenvolvemos uma matriz de rastreabilidade de requisitos (Requirements Traceability Matrix - RTM).
 
-<table>
-  <thead>
-    <tr>
-        <th width="100">ID</th>
-        <th width="800">Descrição do Requisito</th>
-        <th width="100">Requisito Associado</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>RF-001</td>
-      <td>O Sistema deve permitir que o usuário crie uma conta.</td>
-      <td>-</td>
-    </tr>
-    <tr>
-      <td>RF-002</td>
-      <td>O Sistema deve permitir que o usuário faça login em uma conta já cadastrada.</td>
-      <td>RF-001</td>
-    </tr>
-    <tr>
-      <td>RF-003</td>
-      <td>O Sistema deve permitir que o usuário recupere a senha de sua conta.</td>
-      <td>RF-001</td>
-    </tr>
-    <tr>
-      <td>RF-004</td>
-      <td>O Sistema deve listar todos os filmes em cartaz no cinema.</td>
-      <td>-</td>
-    </tr>
-    <tr>
-      <td>RF-005</td>
-      <td>O Sistema deve informar os horários dos filmes.</td>
-      <td>RF-004</td>
-    </tr>
-    <tr>
-      <td>RF-006</td>
-      <td>O Sistema deve informar a disponibilidade de um filme.</td>
-      <td>RF-004</td>
-    </tr>
-    <tr>
-      <td>RF-007</td>
-      <td>O Sistema deve permitir que o usuário escolha quais assentos reservar durante a compra dos ingressos.</td>
-      <td>RF-005, RF-006, RF-009</td>
-    </tr>
-    <tr>
-      <td>RF-008</td>
-      <td>O Sistema deve permitir que o usuário desista da compra dos ingressos 1 hora antes do filme começar.</td>
-      <td>RF-007</td>
-    </tr>
-    <tr>
-      <td>RF-009</td>
-      <td>O Sistema deve permitir que o usuário escolha em qual sala do cinema deseja ver o filme.</td>
-      <td>RF-004, RF-012</td>
-    </tr>
-    <tr>
-      <td>RF-010</td>
-      <td>O Sistema deve permitir que o usuário imprima os ingressos.</td>
-      <td>RF-007</td>
-    </tr>
-    <tr>
-      <td>RF-011</td>
-      <td>O Sistema deve notificar o usuário quando o tempo para reembolso de ingressos se esgotar.</td>
-      <td>RF-008</td>
-    </tr>
-    <tr>
-      <td>RF-012</td>
-      <td>O Sistema deve informar quais os cinemas mais próximos ao usuário possuem salas com exibição do filme escolhido.</td>
-      <td>RF-004, RF-006</td>
-    </tr>
-    <tr>
-      <td>RNF-001</td>
-      <td>O Sistema deve notificar o usuário 30 min antes de seu filme começar.</td>
-      <td>RF-007</td>
-    </tr>
-    <tr>
-      <td>RNF-002</td>
-      <td>O Sistema deve listar separadamente filmes sem disponibilidade.</td>
-      <td>RF-006</td>
-    </tr>
-    <tr>
-      <td>RNF-003</td>
-      <td>O Sistema deve implementar um sistema de fila para a escolha dos assentos, não permitindo mais usuários do que assentos disponíveis.</td>
-      <td>RF-007</td>
-    </tr>
-    <tr>
-      <td>RNF-004</td>
-      <td>O Sistema deve escalar horizontalmente caso necessário.</td>
-      <td>-</td>
-    </tr>
-    <tr>
-      <td>RNF-005</td>
-      <td>O Sistema deve liberar os assentos caso um usuário desista de seu ingresso.</td>
-      <td>RF-008</td>
-    </tr>
-    <tr>
-      <td>RNF-006</td>
-      <td>O Sistema deve reservar os assentos temporariamente por 5 min após a escolha dos assentos pelo usuário, liberando caso não seja efetuada a compra dos ingressos.</td>
-      <td>RF-007</td>
-    </tr>
-    <tr>
-      <td>RNF-007</td>
-      <td>O Sistema deve sugerir salas alternativas caso não haja disponibilidade na sala atual.</td>
-      <td>RF-009</td>
-    </tr>
-  </tbody>
-</table>
+A matriz que elaboramos está em constante atualização e será atualizada à medida em que avancemos com nosso projeto.
+
+![Matriz 1](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e3-proj-mov-t3-grupo2/blob/main/docs/img/matriz.png)
+
 
 
 # Gerenciamento de Projeto
@@ -586,53 +156,45 @@ De acordo com o PMBoK v6 as dez áreas que constituem os pilares para gerenciar 
 
 ## Gerenciamento de Tempo
 
-O gerenciamento adequado de tarefas contribuirá para que o projeto alcance altos níveis de produtividade. Por isso, é fundamental que ocorra a gestão de tarefas e de pessoas, de modo que os times envolvidos no projeto possam ser facilmente gerenciados.
-Conforme mencionado no item anterior, o Asana apresenta o detalhamento de cada sprint, com indicação de colaborar encarregado de cada tarefa e com atalho para comunicação com o mesmo facilitando tanto a gestão da equipe quanto a visualização do status de progressão das tarefas:
-Para este projeto utilizares o espaço do github para gerenciamento de Projetos no estilo Kanban. 
-<a href="https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/579"> Gerenciamento de Projeto</a> 
+Com diagramas bem organizados que permitem gerenciar o tempo nos projetos, o gerente de projetos agenda e coordena tarefas dentro de um projeto para estimar o tempo necessário de conclusão.
 
-![Captura de tela de 2023-09-09 20-36-46](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t6-ingresso-facil/assets/105467049/de946ec5-322c-4fcd-b1be-ecfb1485bd63)
+O gráfico de Gantt ou diagrama de Gantt também é uma ferramenta visual utilizada para controlar e gerenciar o cronograma de atividades de um projeto. Com ele, é possível listar tudo que precisa ser feito para colocar o projeto em prática, dividir em atividades e estimar o tempo necessário para executá-las.
 
-Gerenciamos o tempo de acordo com as datas e cronogramas oferecidos pela univercidade como base:
-
-![Alt text](../docs/img/image.png)
-
-
-## Gerenciamento de Equipe
-
-Em "<a href="https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/579"> Gerenciamento de Projeto</a> ", gerenciamos as datas, equipe, e atividades a serem realizadas.
-
-![Alt text](../docs/img/Github_Project.png)
-
- | Scrum Master  |
- |---------------|
- |● Bruno Sellas |
-
-| Equipe de Desenvolvimento|
-|--------------------------|
-| ● Raul Shinaede          |
-| ● João Brito             |
-| ● Lucas Damasceno        |
-| ● Marco Túlio            |
-| ● Rafael Rubio           |
+| Tarefa             | Início       | Fim          |
+| ------------------ | ------------ | ------------ |
+| Contexto e especificação do projeto          | 01-09-2023 | 10-09-2023  |
+| Definir arquitetura da solução        | 11-09-2023  | 20-09-2023  |
+| Projeto de Interface  e   Programação de funcionalidades      | 20-09-2023  | 30-09-2023   |
+|Implementação web   e backend     |  11-10-2023    | 30-10-2023   |
+| Implementação Mobile       |  01-11-2023   | 30-11-2023   |
+| Registro de testes de software e usabilidade       | 01-12-2023  | 07-12-2023   |
+| Apresentação do projeto     | 15-12-2023 | 15-12-2023   |
 
 
 
 ## Gestão de Orçamento
 
-O processo de determinar o orçamento do projeto é uma tarefa que depende, além dos produtos (saídas) dos processos anteriores do gerenciamento de custos, também de produtos oferecidos por outros processos de gerenciamento, como o escopo e o tempo.
+Os custos envolvidos em um projeto de aplicativo móvel podem variar muito dependendo do tamanho e complexidade do aplicativo, bem como da experiência da equipe de desenvolvimento. Aqui estão alguns dos principais custos a serem considerados:
 
-| Gasto Estimado                 | Valor                                                                                   |
-|--------------------------------|----------------------------------------------------------------------------------------------------------|
-| Recursos Humanos               |  R$ 20.000,00      |                                                                                 | | UX/UI                          |  R$ 15.000,00      |             
-| Desenvolvimento                |  R$ 92.000,00      |
-| Gestão de Projeto              |  R$ 5.000,00       | 
-| Infraestrutura                 |  R$ 12.000,00      |
-| Hardware                       |  R$ 20.000,00      |
-| Marketing		                    |  R$5.000,00        |
-| Cursos e treinamentos          |  R$ 5.400,00       |
-| Licenças de Softwares          |  R$ 10.000,00      |
-| Hospedagem	                    |  R$2.000,00        |  
-| **Total**                      |  **R$ 186.000,00** |
+Desenvolvimento de software: este é o custo de desenvolvimento do aplicativo em si. Isso pode incluir design de interface do usuário (UI), programação, testes e resolução de bugs.
 
+Serviços em nuvem: muitos aplicativos móveis precisam de serviços em nuvem para armazenar dados do usuário, processar informações ou fornecer recursos adicionais. Os custos desses serviços geralmente dependem do número de usuários e do uso do aplicativo.
 
+Design gráfico: O design gráfico é um elemento importante do aplicativo móvel, pois afeta a experiência do usuário. Isso pode incluir o design de ícones, telas, gráficos e outros elementos visuais.
+
+Marketing: Uma vez que o aplicativo esteja pronto, será necessário promovê-lo para obter usuários. Isso pode incluir publicidade em redes sociais, publicidade paga em aplicativos móveis, relações públicas e outras táticas de marketing.
+
+Manutenção: após o lançamento do aplicativo, você precisará fazer atualizações regulares para corrigir bugs, adicionar recursos e melhorar a experiência do usuário. Isso pode incluir a contratação de uma equipe de desenvolvimento para manter o aplicativo ou o uso de serviços de terceiros.
+
+Outros custos: outros custos envolvidos em um projeto de aplicativo móvel podem incluir taxas de rede, custos de hospedagem, serviços de terceitos e outras despesas relacionadas à operação e manutenção do aplicativo.
+
+# Custos de Desenvolvimento de do projeto "Tech News"
+
+| Tipo de Custo        | Descrição                               | Estimativa de Custo |
+|----------------------|-----------------------------------------|---------------------|
+| Desenvolvimento      | Design de UI/UX, Programação, Testes    | R$10000,00           |
+| Serviços em Nuvem    | Armazenamento, Processamento, Recursos  | R$1000,00           |
+| Design Gráfico       | Design de Ícones, Telas, Elementos      | R$500,00            |
+| Marketing            | Publicidade, Relações Públicas, Anúncios | R$800,00            |
+| Manutenção           | Atualizações, Suporte, Correções        | R$500,00             |
+| Outros Custos        | Taxas de Rede, Hospedagem, Serviços     | R$ 1000,00          |
