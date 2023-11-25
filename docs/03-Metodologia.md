@@ -11,10 +11,10 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 
 | Ambiente | Plaforma | Link de acesso |
 | ----- | --------- | -------- |
-| Repositório de código fonte | GitHub | [Repositório Ingresso Fácil](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t6-ingresso-facil)|
-| Documento do Projeto | GitHub | [Documentação GitHub](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t6-ingresso-facil/tree/main/docs)|
-| Projeto de interface e Wireframes |  | ()
-| Gerenciamento do Projeto | GitHub |  |
+| Repositório de código fonte | GitHub | [Repositório Tech News](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t6-tech-news)|
+| Documento do Projeto | GitHub | [Documentação GitHub](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t6-tech-news/tree/main/docs)|
+| Projeto de interface e Wireframes | Figma | [Figma](https://www.figma.com/)
+| Gerenciamento do Projeto | GitHub |[Board](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/750/views/1)|
 
 ## Controle de Versão
 
@@ -26,7 +26,7 @@ O projeto segue a seguinte convenção para o nome de branches:
 
 - `main`: Versão final do software já testada
 - `develop`: versão de desenvolvimento de software
-- `joao/add-user-api`: versão em testes do software
+
 
 
 Quanto à gerência de issues, o projeto adota a seguinte convenção para
@@ -46,10 +46,10 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 Apresente a divisão de papéis entre os membros do grupo.
 
 Exemplificação: A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para definição do processo de desenvolvimento. A equipe está organizada da seguinte maneira:
-- Scrum Master: Bruno Sellas;
-- Product Owner: Raul Oliveira;
-- Equipe de Desenvolvimento: Marco Túlio Félix, João Victor Ramires, Lucas Damasceno, Rafael Rubio;
-- Equipe de Design: Raul Oliveira e João Victor Ramires.
+- Scrum Master: João Victor Ramires;
+- Product Owner: Lucas Damasceno;
+- Equipe de Desenvolvimento e Design: João Victor Ramires, Lucas Damasceno, Rafael Rubio;
+
 
 ### Processo
 
@@ -68,5 +68,4 @@ O editor de código foi escolhido porque ele possui uma integração com o siste
 Liste quais ferramentas foram empregadas no desenvolvimento do projeto, justificando a escolha delas, sempre que possível.
  
 > **Possíveis Ferramentas que auxiliarão no gerenciamento**: 
-> - [Slack](https://slack.com/)
 > - [Github](https://github.com/)
