@@ -1,0 +1,3 @@
+[submodule "src/news-api"]
+	path = src/news-api
+	url = https://github.com/jramiresbrito/news-api
