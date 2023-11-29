@@ -1,3 +1,6 @@
 [submodule "src/news-api"]
 	path = src/news-api
 	url = https://github.com/jramiresbrito/news-api
+[submodule "src/tech-news"]
+	path = src/tech-news
+	url = https://github.com/jramiresbrito/tech-news
