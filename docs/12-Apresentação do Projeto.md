@@ -1,27 +1,33 @@
 # Apresentação
 
-<span style="color:red">Pré-requisitos: Todos os demais artefatos</span>
+Bem-vindo ao nosso aplicativo de notícias de tecnologia, sua fonte confiável para se manter atualizado com as últimas novidades no mundo da inovação, ciência e tecnologia.
 
-Conjunto de slides em um arquivo PowerPoint ou PDF com a apresentação do projeto contemplando todos os itens trabalhados nos demais artefatos.
+### Sobre o Aplicativo
 
-## Título do Projeto
+Nosso aplicativo foi cuidadosamente projetado para oferecer uma experiência de leitura envolvente, intuitiva e informativa. Aqui estão alguns destaques que você encontrará:
 
-Nome e marca do projeto
+- **Notícias Atualizadas:** Mantenha-se informado com as notícias mais recentes do universo tecnológico, com atualizações frequentes para mantê-lo por dentro de tudo que acontece.
+- **Variedade de Tópicos:** Explore uma ampla gama de tópicos, desde avanços científicos até lançamentos de gadgets e inovações em diversas áreas da tecnologia.
+- **Interface Amigável:** Uma interface limpa e fácil de usar, pensada para oferecer uma experiência de leitura agradável, permitindo que você se concentre no que é importante: a informação.
+- **Personalização:** Personalize sua experiência de leitura, favoritando notícias, ajustando preferências e recebendo recomendações com base nos seus interesses.
 
-## Identidade Visual (Marca, Design)
+### Como Funciona
 
-O grupo deve ter o cuidado em utilizar figuras, imagens, e cores dentro do contexto da solução proposta, de forma a manter a temática do problema.
+1. **Navegação Intuitiva:** Explore as seções de notícias de forma fácil e rápida, encontrando o conteúdo que mais lhe interessa.
+2. **Leitura Imersiva:** Desfrute de uma leitura confortável e imersiva, com acesso a informações detalhadas e relevantes sobre cada notícia.
+3. **Compartilhamento Simples:** Compartilhe facilmente as notícias que mais lhe interessam com seus amigos e redes sociais preferidas.
 
-> **Links Úteis**:
-> - [10 dicas de design para slides](https://rockcontent.com/blog/design-para-slides/)
-> - [7 dicas de design para criar apresentações de PowerPoint incríveis e eficientes](https://www.shutterstock.com/pt/blog/7-dicas-de-design-para-criar-apresentacoes-de-powerpoint-incriveis-e-eficientes)
-> - [Especialista do TED dá 10 dicas para criar slides eficazes e bonitos](https://soap.com.br/blog/especialista-do-ted-da-10-dicas-para-criar-slides-eficazes-e-bonitos)
+### Nossa Missão
 
-## Conjunto de Slides (Estrutura)
+Nosso objetivo é fornecer a você, nosso estimado usuário, acesso rápido e confiável a informações essenciais sobre os avanços e transformações no mundo da tecnologia. Estamos comprometidos em oferecer uma plataforma que inspire, eduque e mantenha você informado sobre os mais recentes desenvolvimentos tecnológicos.
 
-O grupo deve distribuir de forma coerente o conteúdo a ser apresentado, dentro do tempo determinado. Importante ressaltar a importância da descrição clara de todo o andamento do projeto, insumos gerados e requisitos atendidos.
- 
-> **Links Úteis**:
-> - [A regra 10-20-30 para apresentações de sucesso](https://revistapegn.globo.com/Noticias/noticia/2014/07/regra-10-20-30-para-apresentacoes-de-sucesso.html)
-> - [Top Tips for Effective Presentations](https://www.skillsyouneed.com/present/presentation-tips.html)
-> - [How to make a great presentation](https://www.ted.com/playlists/574/how_to_make_a_great_presentation)
+Baixe nosso aplicativo e embarque conosco nessa jornada pelo universo da tecnologia!
+
+APRESENTAÇÃO PARTE 1 
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t6-tech-news/assets/105467049/e0347a77-d499-4e78-82cc-1d858f92c94b
+
+APRESENTAÇÃO PARTE 2
+
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t6-tech-news/assets/105467049/25be345a-8c2d-4008-bbb2-5a636eaf1c36
