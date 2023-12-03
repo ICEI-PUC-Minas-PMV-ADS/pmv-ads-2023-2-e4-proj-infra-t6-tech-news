@@ -1,6 +1,12 @@
 # Apresentação da Solução
 
-#Por conta do tamanho dos vídeos suportados aqui no Github o vídeo pedido para o projeto foi postado no youtube e segue o link abaixo:
-Etapa 1: https://youtu.be/GW8-W9nsxm0
 
-Faça uma apresentação de um resumo de todos o processo de desenvolvimento e no final apresente a solução desenvolvida, usando um pequeno vídeo.
+
+APRESENTAÇÃO PARTE 1 
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t6-tech-news/assets/105467049/e0347a77-d499-4e78-82cc-1d858f92c94b
+
+APRESENTAÇÃO PARTE 2
+
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t6-tech-news/assets/105467049/25be345a-8c2d-4008-bbb2-5a636eaf1c36
