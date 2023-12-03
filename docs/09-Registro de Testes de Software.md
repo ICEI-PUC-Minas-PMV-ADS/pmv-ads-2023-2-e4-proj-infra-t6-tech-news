@@ -1,12 +1,11 @@
 # Registro de Testes de Software
 
-<span style="color:red">Pré-requisitos: <a href="3-Projeto de Interface.md"> Projeto de Interface</a></span>, <a href="8-Plano de Testes de Software.md"> Plano de Testes de Software</a>
+O primeiro registro de teste consiste no RF001, RF002 - Inicialização do Aplicativo, que tem como objetivo cadastrar um usuário e fazer o login com o usuário criado. 
 
-Relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado em um plano de testes pré-definido.
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t6-tech-news/assets/105467049/0a5f10d8-3b2a-4d61-9e5a-68a7ab15b7d3
 
-## Avaliação
+O segundo registro atende as RF 003,004, - Página de Noticias, que tem como objetivo fazer com que o usuário possa criar uma noticia.
 
-Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t6-tech-news/assets/105467049/b06687a4-1eb1-412a-a1cc-fa5c94eb4bb0
 
-> **Links Úteis**:
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
+
