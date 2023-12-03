@@ -1,54 +1,28 @@
 # Arquitetura da Solução
 
-A arquitetura de solução é um elemento fundamental no campo da tecnologia da informação e sistemas de informação. Ela desempenha um papel crucial na concepção, desenvolvimento e implementação de sistemas complexos e eficazes para atender às necessidades de negócios e tecnológicas de uma organização. 
+A arquitetura de solução desempenha um papel essencial no âmbito da tecnologia da informação e sistemas correlatos. Ela exerce uma influência crucial na concepção, desenvolvimento e implementação de sistemas robustos e eficientes, os quais são projetados para atender às exigências tanto do negócio quanto das necessidades tecnológicas de uma organização.
 
-A seguir está a arquitetura distribuída da solução, com os serviços e componentes que fazem parte da solução.
+Abaixo está apresentada a arquitetura distribuída da solução, destacando os serviços e componentes integrantes do sistema.
 
-![Arquitetura da Solução Distribuida](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t6-ingresso-facil/assets/82043220/0f5c2c67-5db1-4fd7-b94f-2422bf89383b)
+![fluxo2](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t6-tech-news/assets/105467049/75cafe9e-578c-4745-a3a2-c79c19f71cd5)
+
 
 ## Diagrama de Classes
 
-O diagrama de classe é uma representação visual da estrutura e das relações entre as classes de um sistema orientado a objetos. Ele fornece uma visão abstrata dos objetos que compõem o sistema, bem como seus atributos e métodos.
+O diagrama de classe é uma representação visual que descreve a estrutura e as interações entre as classes em um sistema orientado a objetos. Ele oferece uma visão abstrata dos objetos presentes no sistema, incluindo seus atributos e métodos.
 
-A figura abaixo ilustra o diagrama de classes para o sistema proposto.
-![Blank diagram](https://github.com/brunosellas/pmv-ads-2023-2-e4-proj-infra-t6-ingresso-facil/assets/102563767/32e21366-5016-4b54-97a6-13ae4c09b412)
+A figura a seguir apresenta o diagrama de classes para o sistema proposto, destacando a organização das classes e suas relações.
+![database](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t6-tech-news/assets/105467049/8ce2e034-5659-435a-9abf-a0e5776c6e21)
+
 
 As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Classes”.
 
 > - [Diagramas de Classes - Documentação da IBM](https://www.ibm.com/docs/pt-br/rational-soft-arch/9.6.1?topic=diagrams-class)
 > - [O que é um diagrama de classe UML? | Lucidchart](https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-classe-uml)
 
-## Modelo ER
 
-O Modelo ER representa através de um diagrama como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa.]
-
-As referências abaixo irão auxiliá-lo na geração do artefato “Modelo ER”.
-
-> - [Como fazer um diagrama entidade relacionamento | Lucidchart](https://www.lucidchart.com/pages/pt/como-fazer-um-diagrama-entidade-relacionamento)
-
-## Esquema Relacional
-
-O Esquema Relacional corresponde à representação dos dados em tabelas juntamente com as restrições de integridade e chave primária.
- 
-As referências abaixo irão auxiliá-lo na geração do artefato “Esquema Relacional”.
-
-> - [Criando um modelo relacional - Documentação da IBM](https://www.ibm.com/docs/pt-br/cognos-analytics/10.2.2?topic=designer-creating-relational-model)
-
-## Modelo Físico
-
-Entregar um arquivo banco.sql contendo os scripts de criação das tabelas do banco de dados. Este arquivo deverá ser incluído dentro da pasta src\bd.
 
 ## Tecnologias Utilizadas
-
-O desenvolvimento de software moderno depende de uma variedade de tecnologias para criar produtos eficientes e inovadores. Nesta seção, destacamos algumas das principais tecnologias utilizadas no processo de desenvolvimento do sistema proposto.
-
-A imagem abaixo representa a comunicação entre algumas das tecnologias utilizadas no desenvolvimento do sistema:
-
-![Novo mural (1)](https://github.com/brunosellas/pmv-ads-2023-2-e4-proj-infra-t6-ingresso-facil/assets/102563767/a7b7cd7c-ad4b-4bff-b934-a6e3b32c227f)
-
-Todas as tecnologias utilizadas abaixo são relacionadas apenas ao processo de desenvolvimento dos MICROSERVICES *CATALOG* e *AUTHENTICATION*, estão listadas abaixo, separadas por tópicos e contém um breve resumo dos motivos de sua escolha.
-
-### Linguagens
 
 As linguagens de programação são a base do desenvolvimento de software. Dependendo dos requisitos e objetivos do projeto, diferentes linguagens podem ser utilizadas.
 
@@ -62,43 +36,14 @@ As linguagens de programação são a base do desenvolvimento de software. Depen
  </tr>
   <tr>
     <td align='center'><a href='https://www.typescriptlang.org/'>TypeScript</a></td>
-   <td> O TypeScript (TS) foi pré-definido para as etapas 3 e 4 de desenvolvimento do projeto do eixo 4 da <a href='https://www.pucminas.br/PucVirtual/Paginas/default.aspx'>PucMinas Virtual</a>, sendo a linguagem escolhida para o desenvolvimento Front-End Web e Mobile em conjuntos dos frameworks ReactJs e React-native.</td>
+   <td>Para a construção da interface de usuário, escolhemos utilizar TypeScript em conjunto com React e React Native. O TypeScript, uma linguagem baseada em JavaScript, traz consigo a vantagem da tipagem estática, fornecendo maior segurança e facilitando a manutenção do código. Integrado com o React para a web e o React Native para desenvolvimento mobile, essa combinação oferece uma base sólida para a criação de interfaces responsivas e eficientes, garantindo uma experiência consistente tanto em aplicativos web quanto em dispositivos móveis.</td>
  </tr>
   <tr>
-   <td align='center'><a href='https://learn.microsoft.com/pt-br/dotnet/csharp/tour-of-csharp/'>C#</a></td>
-   <td>O C# em conjunto dos frameworks .NeET.0 e ASP.NET6.0 foram escolhidos para o desenvolvimento da Api, sendo o C# uma linguagem orientada à objetos e fortemente tipada, ela disponibiliza recursos que facilitam a criação de webapis.</td>
+   <td align='center'><a href='https://rubyonrails.org/'>RUBY</a></td>
+   <td>Para o desenvolvimento da API, optamos por utilizar Ruby on Rails. Rails é um framework conhecido por sua eficiência e praticidade no desenvolvimento web. A linguagem Ruby, combinada com o framework Rails, oferece uma abordagem ágil e poderosa para a criação de APIs. A estrutura do Rails simplifica muitos aspectos do desenvolvimento, permitindo a rápida implementação de funcionalidades e a gestão eficiente dos recursos do sistema.</td>
  </tr>
 </table>
 
-### Bibliotecas
-
-As bibliotecas são conjuntos de código predefinido e reutilizável que fornecem funcionalidades específicas para facilitar o desenvolvimento de software. Elas são criadas para resolver problemas comuns e oferecer uma abordagem mais eficiente e rápida para a construção de aplicativos
-
-<table>
- <tr>
-   <td colspan='2' align='center'><strong>Bibliotecas</strong></td>
- </tr>
- <tr>
-   <td width='200' align='center'><strong>Biblioteca</strong></td>
-   <td width='800'><strong>Motivo da escolha</strong></td>
- </tr>
-  <tr>
-    <td align='center'><a href='https://nativebase.io/'>Native Base</a></td>
-   <td>A biblioteca de componentes Native Base foi escolhida por proporcionar uma grande variedade de components e estilizações que auxiliam no processo de criação das páginas da aplicação.</td>
- </tr>
-  <tr>
-   <td align='center'><a href='https://www.npmjs.com/package/axios'>Axios</a></td>
-   <td>A biblioteca Axios foi escolhida para o acesso a webapi, por ser muito objetiva e fácil de ser utilizada.</td>
- </tr>
-  <tr>
-   <td align='center'><a href='https://learn.microsoft.com/pt-br/ef/core/'>Entity Framework</a></td>
-   <td>O Entity framework é um mapeador relacional de objeto (ORM) que permite o acesso a dados como objetos, é muito usado por apis desenvolvidas com .NET e fácil de ser utilizada.</td>
- </tr>
-  <tr>
-   <td align='center'><a href='https://github.com/react-native-async-storage/async-storage'>AsyncStorage</a></td>
-   <td>O AsyncStorage é a biblioteca mais usual para armazenamento de dados localmente em dispositivos móveis.</td>
- </tr>
-</table>
 
 ### Ambiente de desenvolvimento
 
