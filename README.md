@@ -50,3 +50,7 @@ Assim que a primeira versão do sistema estiver disponível, deverá complementa
 
 <li><a href="presentation/README.md"> Apresentação da solução</a></li>
 
+<video width="320" height="240" controls>
+  <source src="/presentations/apresentacao.mp4" type="video/mp4">
+</video>
+
