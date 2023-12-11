@@ -1,0 +1,51 @@
+version: "3.1"
+services:
+  postgres:
+    image: "postgres:14.6"
+    shm_size: 1g
+    networks:
+      - news-api-network
+    ports:
+      - "5432:5432"
+    command: postgres -c listen_addresses='*' -c max_connections=500
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_DB=news
+      - POSTGRES_USER=news
+      - POSTGRES_PASSWORD=news
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U news"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  rails-app:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    container_name: rails-app
+    ports:
+      - '3000:3000'
+    command:  bash -c "bundle install && rails db:migrate && rails s -b 0.0.0.0"
+    volumes:
+      - .:/app
+    environment:
+      - DB_HOST=postgres
+      - DB_PORT=5432
+      - DB_USERNAME=news
+      - DB_PASSWORD=news
+      - DB_NAME=news
+      - RAILS_MAX_THREADS=5
+    networks:
+      - news-api-network
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+volumes:
+  pgdata:
+
+networks:
+  news-api-network:
+    driver: bridge
