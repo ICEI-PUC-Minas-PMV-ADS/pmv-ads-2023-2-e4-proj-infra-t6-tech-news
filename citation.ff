@@ -1,0 +1,20 @@
+message: Please cite this software using these metadata.
+title: Tech News
+authors:
+  - family-names: Damasceno Pinto
+    given-names:  Lucas
+  - family-names: Rubio
+    given-names: Rafael
+  - family-names: Victor Ramires Guimaraes Brito
+    given-names: Joao
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Felipe Alves de Oliveira 
+    given-names: Pedro
+keywords:
+  - Tecnnologia
+  - Noticias
+  - Links
+repository-code: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t6-tech-news
+version: 1.0.0
+date-released: 2024-06-23
